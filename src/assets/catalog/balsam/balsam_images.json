@@ -1,0 +1,212 @@
+{
+"balsam_images": {
+"32": [
+{
+"type": "front",
+"src": "/src/assets/catalog/balsam/32/DSC09553.jpg"
+},
+{
+"type": "front_preview",
+"src": "/src/assets/catalog/balsam/32/DSC09593.jpg"
+},
+{
+"type": "right",
+"src": "/src/assets/catalog/balsam/32/DSC09594.jpg"
+},
+{
+"type": "label_front",
+"src": "/src/assets/catalog/balsam/32/DSC09593.jpg"
+},
+{
+"type": "back",
+"src": "/src/assets/catalog/balsam/32/DSC09596.jpg "
+},
+{
+"type": "product_boxed",
+"src": "/src/assets/catalog/balsam/32/DSC09599.jpg"
+}
+],
+"33": [
+{
+"type": "front",
+"src": "/src/assets/catalog/balsam/33/DSC09553.jpg"
+},
+{
+"type": "front_preview",
+"src": "/src/assets/catalog/balsam/33/DSC09586.jpg"
+},
+{
+"type": "label_front",
+"src": "/src/assets/catalog/balsam/33/DSC09586.jpg"
+},
+{
+"type": "right",
+"src": "/src/assets/catalog/balsam/33/DSC09587.jpg"
+},
+{
+"type": "back",
+"src": "/src/assets/catalog/balsam/33/DSC09589.jpg"
+},
+{
+"type": "product_boxed",
+"src": "/src/assets/catalog/balsam/33/DSC09591.jpg"
+}
+],
+"34": [
+{
+"type": "label_front",
+"src": "/src/assets/catalog/balsam/34/DSC09535.jpg"
+},
+{
+"type": "front_preview",
+"src": "/src/assets/catalog/balsam/34/DSC09535.jpg"
+},
+{
+"type": "right",
+"src": "/src/assets/catalog/balsam/34/DSC09536.jpg"
+},
+{
+"type": "back",
+"src": "/src/assets/catalog/balsam/34/DSC09538.jpg"
+},
+{
+"type": "product_boxed",
+"src": "/src/assets/catalog/balsam/34/DSC09540.jpg"
+},
+{
+"type": "front",
+"src": "/src/assets/catalog/balsam/34/DSC09553.jpg"
+}
+],
+"35": [
+{
+"type": "front",
+"src": "/src/assets/catalog/balsam/35/DSC09553.jpg"
+},
+{
+"type": "front_preview",
+"src": "/src/assets/catalog/balsam/35/DSC09557.jpg"
+},
+{
+"type": "label_front",
+"src": "/src/assets/catalog/balsam/35/DSC09557.jpg"
+},
+{
+"type": "right",
+"src": "/src/assets/catalog/balsam/35/DSC09558.jpg"
+},
+{
+"type": "back",
+"src": "/src/assets/catalog/balsam/35/DSC09560.jpg"
+},
+{
+"type": "product_boxed",
+"src": "/src/assets/catalog/balsam/35/DSC09562.jpg"
+}
+],
+"36": [
+{
+"type": "front",
+"src": "/src/assets/catalog/balsam/36/DSC09553.jpg"
+},
+{
+"type": "front_preview",
+"src": "/src/assets/catalog/balsam/36/DSC09575.jpg"
+},
+{
+"type": "label_front",
+"src": "/src/assets/catalog/balsam/36/DSC09575.jpg"
+},
+{
+"type": "right",
+"src": "/src/assets/catalog/balsam/36/DSC09577.jpg"
+},
+{
+"type": "back",
+"src": "/src/assets/catalog/balsam/36/DSC09582.jpg"
+},
+{
+"type": "product_boxed",
+"src": "/src/assets/catalog/balsam/36/DSC09585.jpg"
+}
+],
+"37": [
+{
+"type": "front",
+"src": "/src/assets/catalog/balsam/37/DSC09553.jpg"
+},
+{
+"type": "front_preview",
+"src": "/src/assets/catalog/balsam/37/DSC09569.jpg"
+},
+{
+"type": "label_front",
+"src": "/src/assets/catalog/balsam/37/DSC09569.jpg"
+},
+{
+"type": "right",
+"src": "/src/assets/catalog/balsam/37/DSC09570 (1).jpg"
+},
+{
+"type": "back",
+"src": "/src/assets/catalog/balsam/37/DSC09572.jpg"
+},
+{
+"type": "product_boxed",
+"src": "/src/assets/catalog/balsam/37/DSC09574.jpg"
+}
+],
+"38": [
+{
+"type": "label_front",
+"src": "/src/assets/catalog/balsam/38/DSC09547.jpg"
+},
+{
+"type": "right",
+"src": "/src/assets/catalog/balsam/38/DSC09548.jpg"
+},
+{
+"type": "product",
+"src": "/src/assets/catalog/balsam/38/DSC09552.jpg"
+},
+{
+"type": "front",
+"src": "/src/assets/catalog/balsam/38/DSC09553.jpg"
+},
+{
+"type": "front_preview",
+"src": "/src/assets/catalog/balsam/38/DSC09547.jpg"
+},
+{
+"type": "back",
+"src": "/src/assets/catalog/balsam/38/DSC09992.jpg"
+}
+],
+"39": [
+{
+"type": "front",
+"src": "/src/assets/catalog/balsam/39/DSC09553.jpg"
+},
+{
+"type": "front_preview",
+"src": "/src/assets/catalog/balsam/39/DSC09563.jpg"
+},
+{
+"type": "label_front",
+"src": "/src/assets/catalog/balsam/39/DSC09563.jpg"
+},
+{
+"type": "right",
+"src": "/src/assets/catalog/balsam/39/DSC09564.jpg"
+},
+{
+"type": "back",
+"src": "/src/assets/catalog/balsam/39/DSC09566.jpg"
+},
+{
+"type": "product_boxed",
+"src": "/src/assets/catalog/balsam/39/DSC09568.jpg"
+}
+]
+}
+}

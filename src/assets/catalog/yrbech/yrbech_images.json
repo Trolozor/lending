@@ -1,0 +1,260 @@
+{
+"yrbech_images": {
+"50": [
+{
+"type": "box_front",
+"src": "/src/assets/catalog/yrbech/50/DSC09779.jpg"
+},
+{
+"type": "right",
+"src": "/src/assets/catalog/yrbech/50/DSC09781.jpg"
+},
+{
+"type": "back",
+"src": "/src/assets/catalog/yrbech/50/DSC09782.jpg"
+},
+{
+"type": "jar",
+"src": "/src/assets/catalog/yrbech/50/DSC09788.jpg"
+},
+{
+"type": "jar_closed",
+"src": "/src/assets/catalog/yrbech/50/DSC09793.jpg"
+},
+{
+"type": "product",
+"src": "/src/assets/catalog/yrbech/50/DSC09800.jpg"
+}
+],
+"51": [
+{
+"type": "box_front",
+"src": "/src/assets/catalog/yrbech/51/DSC09738.jpg"
+},
+{
+"type": "right",
+"src": "/src/assets/catalog/yrbech/51/DSC09740.jpg"
+},
+{
+"type": "back",
+"src": "/src/assets/catalog/yrbech/51/DSC09741.jpg"
+},
+{
+"type": "jar",
+"src": "/src/assets/catalog/yrbech/51/DSC09746.jpg"
+},
+{
+"type": "jar_closed",
+"src": "/src/assets/catalog/yrbech/51/DSC09749.jpg"
+},
+{
+"type": "product",
+"src": "/src/assets/catalog/yrbech/51/DSC09756.jpg"
+}
+],
+"52": [
+{
+"type": "box_front",
+"src": "/src/assets/catalog/yrbech/52/DSC09758.jpg"
+},
+{
+"type": "right",
+"src": "/src/assets/catalog/yrbech/52/DSC09759.jpg"
+},
+{
+"type": "back",
+"src": "/src/assets/catalog/yrbech/52/DSC09760.jpg"
+},
+{
+"type": "jar",
+"src": "/src/assets/catalog/yrbech/52/DSC09767.jpg"
+},
+{
+"type": "jar_closed",
+"src": "/src/assets/catalog/yrbech/52/DSC09770.jpg"
+},
+{
+"type": "product",
+"src": "/src/assets/catalog/yrbech/52/DSC09778.jpg"
+}
+],
+"53": [
+{
+"type": "box_front",
+"src": "/src/assets/catalog/yrbech/53/DSC09686.jpg"
+},
+{
+"type": "right",
+"src": "/src/assets/catalog/yrbech/53/DSC09687.jpg"
+},
+{
+"type": "back",
+"src": "/src/assets/catalog/yrbech/53/DSC09688.jpg"
+},
+{
+"type": "jar",
+"src": "/src/assets/catalog/yrbech/53/DSC09696.jpg"
+},
+{
+"type": "product",
+"src": "/src/assets/catalog/yrbech/53/DSC09699.jpg"
+}
+],
+"54": [
+{
+"type": "box_front",
+"src": "/src/assets/catalog/yrbech/54/DSC09134.jpg"
+},
+{
+"type": "right",
+"src": "/src/assets/catalog/yrbech/54/DSC09135.jpg"
+},
+{
+"type": "back",
+"src": "/src/assets/catalog/yrbech/54/DSC09136.jpg"
+},
+{
+"type": "jar",
+"src": "/src/assets/catalog/yrbech/54/DSC09139.jpg"
+},
+{
+"type": "jar_closed",
+"src": "/src/assets/catalog/yrbech/54/DSC09142.jpg"
+},
+{
+"type": "product",
+"src": "/src/assets/catalog/yrbech/54/DSC09367.jpg"
+}
+],
+"55": [
+{
+"type": "box_front",
+"src": "/src/assets/catalog/yrbech/55/DSC09123.jpg"
+},
+{
+"type": "right",
+"src": "/src/assets/catalog/yrbech/55/DSC09124.jpg"
+},
+{
+"type": "back",
+"src": "/src/assets/catalog/yrbech/55/DSC09125.jpg"
+},
+{
+"type": "jar",
+"src": "/src/assets/catalog/yrbech/55/DSC09128.jpg"
+},
+{
+"type": "jar_closed",
+"src": "/src/assets/catalog/yrbech/55/DSC09131.jpg"
+},
+{
+"type": "product",
+"src": "/src/assets/catalog/yrbech/55/DSC09369.jpg"
+}
+],
+"56": [
+{
+"type": "box_front",
+"src": "/src/assets/catalog/yrbech/56/DSC09110.jpg"
+},
+{
+"type": "right",
+"src": "/src/assets/catalog/yrbech/56/DSC09111.jpg"
+},
+{
+"type": "back",
+"src": "/src/assets/catalog/yrbech/56/DSC09113.jpg"
+},
+{
+"type": "jar",
+"src": "/src/assets/catalog/yrbech/56/DSC09117.jpg"
+},
+{
+"type": "jar_closed",
+"src": "/src/assets/catalog/yrbech/56/DSC09120.jpg"
+},
+{
+"type": "product",
+"src": "/src/assets/catalog/yrbech/56/DSC09370.jpg"
+}
+],
+"57": [
+{
+"type": "box_front",
+"src": "/src/assets/catalog/yrbech/57/DSC09700.jpg"
+},
+{
+"type": "right",
+"src": "/src/assets/catalog/yrbech/57/DSC09701.jpg"
+},
+{
+"type": "back",
+"src": "/src/assets/catalog/yrbech/57/DSC09702.jpg"
+},
+{
+"type": "jar",
+"src": "/src/assets/catalog/yrbech/57/DSC09706.jpg"
+},
+{
+"type": "jar_closed",
+"src": "/src/assets/catalog/yrbech/57/DSC09711.jpg"
+},
+{
+"type": "product",
+"src": "/src/assets/catalog/yrbech/57/DSC09718.jpg"
+}
+],
+"58": [
+{
+"type": "box_front",
+"src": "/src/assets/catalog/yrbech/58/DSC09082.jpg"
+},
+{
+"type": "right",
+"src": "/src/assets/catalog/yrbech/58/DSC09083.jpg"
+},
+{
+"type": "back",
+"src": "/src/assets/catalog/yrbech/58/DSC09085.jpg"
+},
+{
+"type": "jar",
+"src": "/src/assets/catalog/yrbech/58/DSC09088.jpg"
+},
+{
+"type": "jar_closed",
+"src": "/src/assets/catalog/yrbech/58/DSC09091.jpg"
+},
+{
+"type": "product",
+"src": "/src/assets/catalog/yrbech/58/DSC09371.jpg"
+}
+],
+"59": [
+{
+"type": "box_front",
+"src": "/src/assets/catalog/yrbech/59/DSC09032.jpg"
+},
+{
+"type": "right",
+"src": "/src/assets/catalog/yrbech/59/DSC09034.jpg"
+},
+{
+"type": "back",
+"src": "/src/assets/catalog/yrbech/59/DSC09036.jpg"
+},
+{
+"type": "jar",
+"src": "/src/assets/catalog/yrbech/59/DSC09040.jpg"
+},
+{
+"type": "jar_closed",
+"src": "/src/assets/catalog/yrbech/59/DSC09043.jpg"
+},
+{
+"type": "product",
+"src": "/src/assets/catalog/yrbech/59/DSC09372.jpg"
+}
+]
+}
+}

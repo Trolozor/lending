@@ -1,0 +1,160 @@
+{
+"bar_images": {
+"20": [
+{
+"type": "front",
+"src": "/src/assets/catalog/bar/20/DSC09438.jpg"
+},
+{
+"type": "front_preview",
+"src": "/src/assets/catalog/bar/20/DSC09438.jpg"
+},
+{
+"type": "back",
+"src": "/src/assets/catalog/bar/20/DSC09439.jpg"
+},
+{
+"type": "right",
+"src": "/src/assets/catalog/bar/20/DSC09440.jpg"
+},
+{
+"type": "product",
+"src": "/src/assets/catalog/bar/20/DSC09443.jpg"
+},
+{
+"type": "opened",
+"src": "/src/assets/catalog/bar/20/DSC09445.jpg"
+}
+],
+"21": [
+{
+"type": "front",
+"src": "/src/assets/catalog/bar/21/DSC09463.jpg"
+},
+{
+"type": "front_preview",
+"src": "/src/assets/catalog/bar/21/DSC09463.jpg"
+},
+{
+"type": "back",
+"src": "/src/assets/catalog/bar/21/DSC09464.jpg"
+},
+{
+"type": "right",
+"src": "/src/assets/catalog/bar/21/DSC09465.jpg"
+},
+{
+"type": "product",
+"src": "/src/assets/catalog/bar/21/DSC09466.jpg"
+},
+{
+"type": "opened",
+"src": "/src/assets/catalog/bar/21/DSC09469.jpg"
+}
+],
+"22": [
+{
+"type": "front",
+"src": "/src/assets/catalog/bar/22/DSC09429.jpg"
+},
+{
+"type": "front_preview",
+"src": "/src/assets/catalog/bar/22/DSC09429.jpg"
+},
+{
+"type": "back",
+"src": "/src/assets/catalog/bar/22/DSC09430.jpg"
+},
+{
+"type": "right",
+"src": "/src/assets/catalog/bar/22/DSC09431.jpg"
+},
+{
+"type": "product",
+"src": "/src/assets/catalog/bar/22/DSC09435.jpg"
+},
+{
+"type": "opened",
+"src": "/src/assets/catalog/bar/22/DSC09437.jpg"
+}
+],
+"23": [
+{
+"type": "front",
+"src": "/src/assets/catalog/bar/23/DSC09416.jpg"
+},
+{
+"type": "front_preview",
+"src": "/src/assets/catalog/bar/23/DSC09416.jpg"
+},
+{
+"type": "back",
+"src": "/src/assets/catalog/bar/23/DSC09417.jpg"
+},
+{
+"type": "right",
+"src": "/src/assets/catalog/bar/23/DSC09419.jpg"
+},
+{
+"type": "product",
+"src": "/src/assets/catalog/bar/23/DSC09425.jpg"
+},
+{
+"type": "opened",
+"src": "/src/assets/catalog/bar/23/DSC09427.jpg"
+}
+],
+"24": [
+{
+"type": "front",
+"src": "/src/assets/catalog/bar/24/DSC09456.jpg"
+},
+{
+"type": "front_preview",
+"src": "/src/assets/catalog/bar/24/DSC09456.jpg"
+},
+{
+"type": "back",
+"src": "/src/assets/catalog/bar/24/DSC09457.jpg"
+},
+{
+"type": "right",
+"src": "/src/assets/catalog/bar/24/DSC09458.jpg"
+},
+{
+"type": "product",
+"src": "/src/assets/catalog/bar/24/DSC09461.jpg"
+},
+{
+"type": "opened",
+"src": "/src/assets/catalog/bar/24/DSC09462.jpg"
+}
+],
+"25": [
+{
+"type": "front",
+"src": "/src/assets/catalog/bar/25/DSC09446.jpg"
+},
+{
+"type": "front_preview",
+"src": "/src/assets/catalog/bar/25/DSC09446.jpg"
+},
+{
+"type": "back",
+"src": "/src/assets/catalog/bar/25/DSC09447.jpg"
+},
+{
+"type": "right",
+"src": "/src/assets/catalog/bar/25/DSC09449.jpg"
+},
+{
+"type": "product",
+"src": "/src/assets/catalog/bar/25/DSC09453.jpg"
+},
+{
+"type": "opened",
+"src": "/src/assets/catalog/bar/25/DSC09455.jpg"
+}
+]
+}
+}

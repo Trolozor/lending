@@ -1,0 +1,232 @@
+{
+"spice_images": {
+"12": [
+{
+"type": "front",
+"src": "/src/assets/catalog/spice/12/DSC01105.jpg"
+},
+{
+"type": "front_preview",
+"src": "/src/assets/catalog/spice/12/DSC01105.jpg"
+},
+{
+"type": "right",
+"src": "/src/assets/catalog/spice/12/DSC01106.jpg"
+},
+{
+"type": "back",
+"src": "/src/assets/catalog/spice/12/DSC01111.jpg"
+},
+{
+"type": "jar",
+"src": "/src/assets/catalog/spice/12/DSC01112-artguru-artguru.jpg"
+},
+{
+"type": "jar_closed",
+"src": "/src/assets/catalog/spice/12/DSC01115-artguru.jpg"
+},
+{
+"type": "product",
+"src": "/src/assets/catalog/spice/12/DSC01117-artguru.jpg"
+}
+],
+"13": [
+{
+"type": "front",
+"src": "/src/assets/catalog/spice/13/DSC01121.jpg"
+},
+{
+"type": "front_preview",
+"src": "/src/assets/catalog/spice/13/DSC01121.jpg"
+},
+{
+"type": "right",
+"src": "/src/assets/catalog/spice/13/DSC01122.jpg"
+},
+{
+"type": "back",
+"src": "/src/assets/catalog/spice/13/DSC01126.jpg"
+},
+{
+"type": "jar",
+"src": "/src/assets/catalog/spice/13/DSC01127-artguru (2).jpg"
+},
+{
+"type": "product",
+"src": "/src/assets/catalog/spice/13/DSC01130-artguru.jpg"
+}
+],
+"14": [
+{
+"type": "front",
+"src": "/src/assets/catalog/spice/14/DSC01098.jpg"
+},
+{
+"type": "front_preview",
+"src": "/src/assets/catalog/spice/14/DSC01098.jpg"
+},
+{
+"type": "back",
+"src": "/src/assets/catalog/spice/14/DSC01097.jpg"
+},
+{
+"type": "jar",
+"src": "/src/assets/catalog/spice/14/DSC01102-artguru.jpg"
+},
+{
+"type": "right",
+"src": "/src/assets/catalog/spice/14/DSC01099-artguru.jpg "
+},
+{
+"type": "product",
+"src": "/src/assets/catalog/spice/14/DSC01103-artguru.jpg"
+}
+],
+"15": [
+{
+"type": "front",
+"src": "/src/assets/catalog/spice/15/DSC01036.jpg"
+},
+{
+"type": "front_preview",
+"src": "/src/assets/catalog/spice/15/DSC01036.jpg"
+},
+{
+"type": "right",
+"src": "/src/assets/catalog/spice/15/DSC01037.jpg"
+},
+{
+"type": "back",
+"src": "/src/assets/catalog/spice/15/DSC01041.jpg"
+},
+{
+"type": "jar",
+"src": "/src/assets/catalog/spice/15/DSC01028-artguru.jpg"
+},
+{
+"type": "product",
+"src": "/src/assets/catalog/spice/15/DSC01031-artguru.jpg"
+},
+{
+"type": "jar_side",
+"src": "/src/assets/catalog/spice/15/DSC01139-artguru.jpg"
+}
+],
+"16": [
+{
+"type": "front",
+"src": "/src/assets/catalog/spice/16/DSC01085.jpg"
+},
+{
+"type": "front_preview",
+"src": "/src/assets/catalog/spice/16/DSC01085.jpg"
+},
+{
+"type": "back",
+"src": "/src/assets/catalog/spice/16/DSC01082.jpg"
+},
+{
+"type": "jar",
+"src": "/src/assets/catalog/spice/16/DSC01086-artguru (1).jpg"
+},
+{
+"type": "right",
+"src": "/src/assets/catalog/spice/16/DSC01091-artguru.jpg"
+},
+{
+"type": "product",
+"src": "/src/assets/catalog/spice/16/DSC01092-artguru.jpg"
+},
+{
+"type": "jar_side",
+"src": "/src/assets/catalog/spice/16/DSC01136-artguru.jpg"
+}
+],
+"17": [
+{
+"type": "front",
+"src": "/src/assets/catalog/spice/17/DSC01043.jpg"
+},
+{
+"type": "front_preview",
+"src": "/src/assets/catalog/spice/17/DSC01043.jpg"
+},
+{
+"type": "back",
+"src": "/src/assets/catalog/spice/17/DSC01048.jpg"
+},
+{
+"type": "jar",
+"src": "/src/assets/catalog/spice/17/DSC01051-artguru.jpg"
+},
+{
+"type": "right",
+"src": "/src/assets/catalog/spice/17/DSC01044.jpg"
+},
+{
+"type": "jar_closed",
+"src": "/src/assets/catalog/spice/17/DSC01053-artguru.jpg"
+},
+{
+"type": "product",
+"src": "/src/assets/catalog/spice/17/DSC01054-artguru.jpg"
+}
+],
+"18": [
+{
+"type": "front",
+"src": "/src/assets/catalog/spice/18/DSC01066.jpg"
+},
+{
+"type": "front_preview",
+"src": "/src/assets/catalog/spice/18/DSC01066.jpg"
+},
+{
+"type": "right",
+"src": "/src/assets/catalog/spice/18/DSC01067.jpg"
+},
+{
+"type": "back",
+"src": "/src/assets/catalog/spice/18/DSC01071.jpg"
+},
+{
+"type": "jar",
+"src": "/src/assets/catalog/spice/18/DSC01074-artguru.jpg"
+},
+{
+"type": "jar_closed",
+"src": "/src/assets/catalog/spice/18/DSC01077-artguru.jpg"
+},
+{
+"type": "product",
+"src": "/src/assets/catalog/spice/18/DSC01080-artguru.jpg"
+}
+],
+"19": [
+{
+"type": "front",
+"src": "/src/assets/catalog/spice/19/DSC01056.jpg"
+},
+{
+"type": "front_preview",
+"src": "/src/assets/catalog/spice/19/DSC01056.jpg"
+},
+{
+"type": "back",
+"src": "/src/assets/catalog/spice/19/DSC01057.jpg"
+},
+{
+"type": "jar",
+"src": "/src/assets/catalog/spice/19/DSC01060.jpg"
+},
+{
+"type": "jar_closed",
+"src": "/src/assets/catalog/spice/19/DSC01061-artguru (1).jpg"
+},
+{
+"type": "product",
+"src": "/src/assets/catalog/spice/19/DSC01065-artguru.jpg"
+}
+]
+}
+}

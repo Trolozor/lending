@@ -1,0 +1,78 @@
+{
+  "tea_images": {
+    "1": [
+      { "type": "front", "src": "/src/assets/catalog/tea/1/1_front.png" },
+      { "type": "front_preview", "src": "/src/assets/catalog/tea/1/1_front.jpg" },
+      { "type": "back", "src": "/src/assets/catalog/tea/1/1_back.png" },
+      { "type": "right", "src": "/src/assets/catalog/tea/1/1_right.png" },
+      { "type": "teabag", "src": "/src/assets/catalog/tea/tea_bag.png" }
+    ],
+    "2": [
+      { "type": "front", "src": "/src/assets/catalog/tea/2/2_front.png" },
+      { "type": "front_preview", "src": "/src/assets/catalog/tea/2/2_front.jpg" },
+      { "type": "back", "src": "/src/assets/catalog/tea/2/2_back.png" },
+      { "type": "right", "src": "/src/assets/catalog/tea/2/2_right.png" },
+      { "type": "teabag", "src": "/src/assets/catalog/tea/tea_bag.png" }
+    ],
+    "3": [
+      { "type": "front", "src": "/src/assets/catalog/tea/3/3_front.png" },
+      { "type": "front_preview", "src": "/src/assets/catalog/tea/3/3_front.jpg" },
+      { "type": "back", "src": "/src/assets/catalog/tea/3/3_back.png" },
+      { "type": "right", "src": "/src/assets/catalog/tea/3/3_right.png" },
+      { "type": "teabag", "src": "/src/assets/catalog/tea/tea_bag.png" }
+    ],
+    "4": [
+      { "type": "front", "src": "/src/assets/catalog/tea/4/4_front.png" },
+      { "type": "front_preview", "src": "/src/assets/catalog/tea/4/4_front.jpg" },
+      { "type": "back", "src": "/src/assets/catalog/tea/4/4_back.png" },
+      { "type": "right", "src": "/src/assets/catalog/tea/4/4_right.png" },
+      { "type": "teabag", "src": "/src/assets/catalog/tea/tea_bag.png" }
+    ],
+    "5": [
+      { "type": "front", "src": "/src/assets/catalog/tea/5/5_front.png" },
+      { "type": "front_preview", "src": "/src/assets/catalog/tea/5/5_front.jpg" },
+      { "type": "back", "src": "/src/assets/catalog/tea/5/5_back.png" },
+      { "type": "right", "src": "/src/assets/catalog/tea/5/5_right.png" },
+      { "type": "teabag", "src": "/src/assets/catalog/tea/tea_bag.png" }
+    ],
+    "6": [
+      { "type": "front", "src": "/src/assets/catalog/tea/6/6_front.png" },
+      { "type": "front_preview", "src": "/src/assets/catalog/tea/6/6_front.jpg" },
+      { "type": "back", "src": "/src/assets/catalog/tea/6/6_back.png" },
+      { "type": "right", "src": "/src/assets/catalog/tea/6/6_right.png" },
+      { "type": "product", "src": "/src/assets/catalog/tea/6/6_product.png" }
+    ],
+    "7": [
+      { "type": "front", "src": "/src/assets/catalog/tea/7/7_front.png" },
+      { "type": "front_preview", "src": "/src/assets/catalog/tea/7/7_front.jpg" },
+      { "type": "back", "src": "/src/assets/catalog/tea/7/7_back.png" },
+      { "type": "right", "src": "/src/assets/catalog/tea/7/7_right.png" }
+    ],
+    "8": [
+      { "type": "front", "src": "/src/assets/catalog/tea/8/8_front.png" },
+      { "type": "front_preview", "src": "/src/assets/catalog/tea/8/8_front.jpg" },
+      { "type": "back", "src": "/src/assets/catalog/tea/8/8_back.png" },
+      { "type": "right", "src": "/src/assets/catalog/tea/8/8_right.png" }
+    ],
+    "9": [
+      { "type": "front", "src": "/src/assets/catalog/tea/9/9_front.png" },
+      { "type": "front_preview", "src": "/src/assets/catalog/tea/9/9_front.jpg" },
+      { "type": "back", "src": "/src/assets/catalog/tea/9/9_back.png" },
+      { "type": "right", "src": "/src/assets/catalog/tea/9/9_right.png" },
+      { "type": "product", "src": "/src/assets/catalog/tea/9/9_product.png" }
+    ],
+    "10": [
+      { "type": "front", "src": "/src/assets/catalog/tea/10/10_front.png" },
+      { "type": "front_preview", "src": "/src/assets/catalog/tea/10/10_front.jpg" },
+      { "type": "back", "src": "/src/assets/catalog/tea/10/10_back.png" },
+      { "type": "right", "src": "/src/assets/catalog/tea/10/10_right.png" },
+      { "type": "product", "src": "/src/assets/catalog/tea/10/10_product.png" }
+    ],
+    "11": [
+      { "type": "front", "src": "/src/assets/catalog/tea/11/11_front.png" },
+      { "type": "front_preview", "src": "/src/assets/catalog/tea/11/11_front.jpg" },
+      { "type": "back", "src": "/src/assets/catalog/tea/11/11_back.png" },
+      { "type": "right", "src": "/src/assets/catalog/tea/11/11_right.png" }
+    ]
+  }
+}

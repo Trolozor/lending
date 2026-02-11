@@ -1,0 +1,212 @@
+{
+  "kozinak_images": {
+    "79": [
+      {
+        "type": "front",
+        "src": "/src/assets/catalog/kozinak/79/DSC09220.jpg"
+      },
+      {
+        "type": "front_preview",
+        "src": "/src/assets/catalog/kozinak/79/DSC09220.jpg"
+      },
+      {
+        "type": "box_side",
+        "src": "/src/assets/catalog/kozinak/79/DSC09222.jpg"
+      },
+      {
+        "type": "back",
+        "src": "/src/assets/catalog/kozinak/79/DSC09223.jpg"
+      },
+      {
+        "type": "product",
+        "src": "/src/assets/catalog/kozinak/79/DSC09230.jpg"
+      },
+      {
+        "type": "product_opened",
+        "src": "/src/assets/catalog/kozinak/79/DSC09232.jpg"
+      }
+    ],
+    "80": [
+      {
+        "type": "front",
+        "src": "/src/assets/catalog/kozinak/80/DSC09245.jpg"
+      },
+      {
+        "type": "front_preview",
+        "src": "/src/assets/catalog/kozinak/80/DSC09245.jpg"
+      },
+      {
+        "type": "box_side",
+        "src": "/src/assets/catalog/kozinak/80/DSC09246.jpg"
+      },
+      {
+        "type": "back",
+        "src": "/src/assets/catalog/kozinak/80/DSC09247.jpg"
+      },
+      {
+        "type": "product",
+        "src": "/src/assets/catalog/kozinak/80/DSC09254.jpg"
+      },
+      {
+        "type": "product_opened",
+        "src": "/src/assets/catalog/kozinak/80/DSC09256.jpg"
+      }
+    ],
+    "81": [
+      {
+        "type": "front",
+        "src": "/src/assets/catalog/kozinak/81/DSC09257.jpg"
+      },
+      {
+        "type": "front_preview",
+        "src": "/src/assets/catalog/kozinak/81/DSC09257.jpg"
+      },
+      {
+        "type": "back",
+        "src": "/src/assets/catalog/kozinak/81/DSC09258.jpg"
+      },
+      {
+        "type": "box_side",
+        "src": "/src/assets/catalog/kozinak/81/DSC09259.jpg"
+      },
+      {
+        "type": "product",
+        "src": "/src/assets/catalog/kozinak/81/DSC09262.jpg"
+      },
+      {
+        "type": "product_opened",
+        "src": "/src/assets/catalog/kozinak/81/DSC09265.jpg"
+      }
+    ],
+    "82": [
+      {
+        "type": "front",
+        "src": "/src/assets/catalog/kozinak/82/DSC09234.jpg"
+      },
+      {
+        "type": "front_preview",
+        "src": "/src/assets/catalog/kozinak/82/DSC09234.jpg"
+      },
+      {
+        "type": "box_side",
+        "src": "/src/assets/catalog/kozinak/82/DSC09236.jpg"
+      },
+      {
+        "type": "back",
+        "src": "/src/assets/catalog/kozinak/82/DSC09237.jpg"
+      },
+      {
+        "type": "product",
+        "src": "/src/assets/catalog/kozinak/82/DSC09243.jpg"
+      },
+      {
+        "type": "product_opened",
+        "src": "/src/assets/catalog/kozinak/82/DSC09244.jpg"
+      }
+    ],
+    "83": [
+      {
+        "type": "front",
+        "src": "/src/assets/catalog/kozinak/83/DSC09829.jpg"
+      },
+      {
+        "type": "front_preview",
+        "src": "/src/assets/catalog/kozinak/83/DSC09829.jpg"
+      },
+      {
+        "type": "back",
+        "src": "/src/assets/catalog/kozinak/83/DSC09831.jpg"
+      },
+      {
+        "type": "box_side",
+        "src": "/src/assets/catalog/kozinak/83/DSC09832.jpg"
+      },
+      {
+        "type": "product",
+        "src": "/src/assets/catalog/kozinak/83/DSC09838.jpg"
+      },
+      {
+        "type": "product_opened",
+        "src": "/src/assets/catalog/kozinak/83/DSC09840.jpg"
+      }
+    ],
+    "84": [
+      {
+        "type": "front",
+        "src": "/src/assets/catalog/kozinak/84/DSC09801.jpg"
+      },
+      {
+        "type": "front_preview",
+        "src": "/src/assets/catalog/kozinak/84/DSC09801.jpg"
+      },
+      {
+        "type": "back",
+        "src": "/src/assets/catalog/kozinak/84/DSC09803.jpg"
+      },
+      {
+        "type": "box_side",
+        "src": "/src/assets/catalog/kozinak/84/DSC09805.jpg"
+      },
+      {
+        "type": "product",
+        "src": "/src/assets/catalog/kozinak/84/DSC09817.jpg"
+      },
+      {
+        "type": "product_opened",
+        "src": "/src/assets/catalog/kozinak/84/DSC09818.jpg"
+      }
+    ],
+    "85": [
+      {
+        "type": "front",
+        "src": "/src/assets/catalog/kozinak/85/DSC09852.jpg"
+      },
+      {
+        "type": "front_preview",
+        "src": "/src/assets/catalog/kozinak/85/DSC09852.jpg"
+      },
+      {
+        "type": "back",
+        "src": "/src/assets/catalog/kozinak/85/DSC09853.jpg"
+      },
+      {
+        "type": "box_side",
+        "src": "/src/assets/catalog/kozinak/85/DSC09854.jpg"
+      },
+      {
+        "type": "product",
+        "src": "/src/assets/catalog/kozinak/85/DSC09859.jpg"
+      },
+      {
+        "type": "product_opened",
+        "src": "/src/assets/catalog/kozinak/85/DSC09864.jpg"
+      }
+    ],
+    "86": [
+      {
+        "type": "front",
+        "src": "/src/assets/catalog/kozinak/86/DSC09819.jpg"
+      },
+      {
+        "type": "front_preview",
+        "src": "/src/assets/catalog/kozinak/86/DSC09819.jpg"
+      },
+      {
+        "type": "back",
+        "src": "/src/assets/catalog/kozinak/86/DSC09821.jpg"
+      },
+      {
+        "type": "box_side",
+        "src": "/src/assets/catalog/kozinak/86/DSC09822.jpg"
+      },
+      {
+        "type": "product",
+        "src": "/src/assets/catalog/kozinak/86/DSC09826.jpg"
+      },
+      {
+        "type": "product_opened",
+        "src": "/src/assets/catalog/kozinak/86/DSC09828.jpg"
+      }
+    ]
+  }
+}

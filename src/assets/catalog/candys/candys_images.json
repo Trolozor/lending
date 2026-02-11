@@ -1,0 +1,346 @@
+{
+"candy_images": {
+"61": [
+{
+"type": "front",
+"src": "/src/assets/catalog/candys/61/DSC09270.jpg"
+},
+{
+"type": "front_preview",
+"src": "/src/assets/catalog/candys/61/DSC09270.jpg"
+},
+{
+"type": "back",
+"src": "/src/assets/catalog/candys/61/DSC09274.jpg"
+},
+{
+"type": "right",
+"src": "/src/assets/catalog/candys/61/DSC09275.jpg"
+},
+{
+"type": "product_group",
+"src": "/src/assets/catalog/candys/61/DSC09281.jpg"
+},
+{
+"type": "product_opened",
+"src": "/src/assets/catalog/candys/61/DSC09286.jpg"
+},
+{
+"type": "product_single",
+"src": "/src/assets/catalog/candys/61/DSC09307.jpg"
+}
+],
+"62": [
+{
+"type": "front",
+"src": "/src/assets/catalog/candys/62/DSC09288.jpg"
+},
+{
+"type": "front_preview",
+"src": "/src/assets/catalog/candys/62/DSC09288.jpg"
+},
+{
+"type": "right",
+"src": "/src/assets/catalog/candys/62/DSC09290.jpg"
+},
+{
+"type": "product_group",
+"src": "/src/assets/catalog/candys/62/DSC09293.jpg"
+},
+{
+"type": "product_opened",
+"src": "/src/assets/catalog/candys/62/DSC09297.jpg"
+}
+],
+"63": [
+{
+"type": "front",
+"src": "/src/assets/catalog/candys/63/DSC09298.jpg"
+},
+{
+"type": "front_preview",
+"src": "/src/assets/catalog/candys/63/DSC09298.jpg"
+},
+{
+"type": "back",
+"src": "/src/assets/catalog/candys/63/DSC09300.jpg"
+},
+{
+"type": "right",
+"src": "/src/assets/catalog/candys/63/DSC09303.jpg"
+},
+{
+"type": "product_group",
+"src": "/src/assets/catalog/candys/63/DSC09306.jpg"
+},
+{
+"type": "product_opened",
+"src": "/src/assets/catalog/candys/63/DSC09310.jpg"
+}
+],
+"64": [
+{
+"type": "front",
+"src": "/src/assets/catalog/candys/64/DSC09312.jpg"
+},
+{
+"type": "front_preview",
+"src": "/src/assets/catalog/candys/64/DSC09312.jpg"
+},
+{
+"type": "back",
+"src": "/src/assets/catalog/candys/64/DSC09314.jpg"
+},
+{
+"type": "right",
+"src": "/src/assets/catalog/candys/64/DSC09315.jpg"
+},
+{
+"type": "product_group",
+"src": "/src/assets/catalog/candys/64/DSC09318.jpg"
+},
+{
+"type": "product_opened",
+"src": "/src/assets/catalog/candys/64/DSC09324.jpg"
+}
+],
+"65": [
+{
+"type": "front",
+"src": "/src/assets/catalog/candys/65/DSC09325.jpg"
+},
+{
+"type": "front_preview",
+"src": "/src/assets/catalog/candys/65/DSC09325.jpg"
+},
+{
+"type": "back",
+"src": "/src/assets/catalog/candys/65/DSC09326.jpg"
+},
+{
+"type": "right",
+"src": "/src/assets/catalog/candys/65/DSC09328.jpg"
+},
+{
+"type": "product_group",
+"src": "/src/assets/catalog/candys/65/DSC09331.jpg"
+},
+{
+"type": "product_opened",
+"src": "/src/assets/catalog/candys/65/DSC09336.jpg"
+}
+],
+"66": [
+{
+"type": "front",
+"src": "/src/assets/catalog/candys/66/DSC09338.jpg"
+},
+{
+"type": "front_preview",
+"src": "/src/assets/catalog/candys/66/DSC09338.jpg"
+},
+{
+"type": "back",
+"src": "/src/assets/catalog/candys/66/DSC09339.jpg"
+},
+{
+"type": "right",
+"src": "/src/assets/catalog/candys/66/DSC09342.jpg"
+},
+{
+"type": "product_group",
+"src": "/src/assets/catalog/candys/66/DSC09344.jpg"
+},
+{
+"type": "product_opened",
+"src": "/src/assets/catalog/candys/66/DSC09345.jpg"
+}
+],
+"67": [
+{
+"type": "front",
+"src": "/src/assets/catalog/candys/67/DSC09346.jpg"
+},
+{
+"type": "front_preview",
+"src": "/src/assets/catalog/candys/67/DSC09346.jpg"
+},
+{
+"type": "back",
+"src": "/src/assets/catalog/candys/67/DSC09347.jpg"
+},
+{
+"type": "right",
+"src": "/src/assets/catalog/candys/67/DSC09349.jpg"
+},
+{
+"type": "product_group",
+"src": "/src/assets/catalog/candys/67/DSC09351.jpg"
+},
+{
+"type": "product_opened",
+"src": "/src/assets/catalog/candys/67/DSC09353.jpg"
+}
+],
+"68": [
+{
+"type": "front",
+"src": "/src/assets/catalog/candys/68/DSC00180.jpg"
+},
+{
+"type": "front_preview",
+"src": "/src/assets/catalog/candys/68/DSC00180.jpg"
+},
+{
+"type": "right",
+"src": "/src/assets/catalog/candys/68/DSC00184.jpg"
+},
+{
+"type": "product_opened",
+"src": "/src/assets/catalog/candys/68/DSC00186.jpg"
+},
+{
+"type": "product_single",
+"src": "/src/assets/catalog/candys/68/DSC00250.jpg"
+}
+],
+"69": [
+{
+"type": "front",
+"src": "/src/assets/catalog/candys/69/DSC00188.jpg"
+},
+{
+"type": "front_preview",
+"src": "/src/assets/catalog/candys/69/DSC00188.jpg"
+},
+{
+"type": "right",
+"src": "/src/assets/catalog/candys/69/DSC00194.jpg"
+},
+{
+"type": "product_opened",
+"src": "/src/assets/catalog/candys/69/DSC00195.jpg"
+},
+{
+"type": "product_single",
+"src": "/src/assets/catalog/candys/69/DSC00248.jpg"
+}
+],
+"70": [
+{
+"type": "front",
+"src": "/src/assets/catalog/candys/70/DSC09868.jpg"
+},
+{
+"type": "right",
+"src": "/src/assets/catalog/candys/70/DSC09871.jpg"
+},
+{
+"type": "product_group_alt",
+"src": "/src/assets/catalog/candys/70/DSC09873.jpg"
+},
+{
+"type": "product_opened",
+"src": "/src/assets/catalog/candys/70/DSC09877.jpg"
+},
+{
+"type": "product_opened_multi",
+"src": "/src/assets/catalog/candys/70/DSC09878.jpg"
+},
+{
+"type": "product_single",
+"src": "/src/assets/catalog/candys/70/DSC09880.jpg"
+}
+],
+"71": [
+{
+"type": "front",
+"src": "/src/assets/catalog/candys/71/DSC00202.jpg"
+},
+{
+"type": "right",
+"src": "/src/assets/catalog/candys/71/DSC00206.jpg"
+},
+{
+"type": "product_opened",
+"src": "/src/assets/catalog/candys/71/DSC00207.jpg"
+},
+{
+"type": "product_single",
+"src": "/src/assets/catalog/candys/71/DSC00249.jpg"
+}
+],
+"72": [
+{
+"type": "front",
+"src": "/src/assets/catalog/candys/72/DSC00210.jpg"
+},
+{
+"type": "right",
+"src": "/src/assets/catalog/candys/72/DSC00216.jpg"
+},
+{
+"type": "product_opened",
+"src": "/src/assets/catalog/candys/72/DSC00218.jpg"
+},
+{
+"type": "product_single",
+"src": "/src/assets/catalog/candys/72/DSC00252.jpg"
+}
+],
+"73": [
+{
+"type": "front",
+"src": "/src/assets/catalog/candys/73/DSC00197.jpg"
+},
+{
+"type": "product_opened",
+"src": "/src/assets/catalog/candys/73/DSC00201.jpg"
+},
+{
+"type": "right",
+"src": "/src/assets/catalog/candys/73/DSC00209.jpg"
+},
+{
+"type": "product_single",
+"src": "/src/assets/catalog/candys/73/DSC00251.jpg"
+}
+],
+"74": [
+{
+"type": "front",
+"src": "/src/assets/catalog/candys/74/DSC00230.jpg"
+},
+{
+"type": "right",
+"src": "/src/assets/catalog/candys/74/DSC00241.jpg"
+},
+{
+"type": "product_single",
+"src": "/src/assets/catalog/candys/74/DSC00242.jpg"
+},
+{
+"type": "product_opened",
+"src": "/src/assets/catalog/candys/74/DSC00244.jpg"
+}
+],
+"75": [
+{
+"type": "front",
+"src": "/src/assets/catalog/candys/75/DSC00219.jpg"
+},
+{
+"type": "right",
+"src": "/src/assets/catalog/candys/75/DSC00226.jpg"
+},
+{
+"type": "product_opened",
+"src": "/src/assets/catalog/candys/75/DSC00227.jpg"
+},
+{
+"type": "product_single",
+"src": "/src/assets/catalog/candys/75/DSC00247.jpg"
+}
+]
+}
+}

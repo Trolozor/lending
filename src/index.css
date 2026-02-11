@@ -1,0 +1,180 @@
+/* Шрифты Inter Tight (основной шрифт для текста) */
+@font-face {
+  font-family: 'YS';
+  src: url('https://static.tildacdn.com/tild3037-3066-4134-b437-336636663535/InterTight-Regular.woff') format('woff');
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'YS';
+  src: url('https://static.tildacdn.com/tild6438-3863-4161-a363-643639396633/InterTight-Medium.woff') format('woff');
+  font-weight: 500;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'YS';
+  src: url('https://static.tildacdn.com/tild3862-6165-4061-a639-313865666462/InterTight-SemiBold.woff') format('woff');
+  font-weight: 600;
+  font-style: normal;
+  font-display: swap;
+}
+
+/* Заголовки — элегантный serif с кавказским оттенком */
+@import url('https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@400;500;600;700&family=Montserrat:wght@300;400;500;600;700&display=swap');
+
+@import "tailwindcss";
+
+@import 'swiper/css';
+@import 'swiper/css/effect-coverflow';
+@import 'swiper/css/pagination';
+@import 'swiper/css/navigation';
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* ====================== БАЗОВЫЕ СТИЛИ ====================== */
+@layer base {
+  html {
+    scroll-behavior: smooth;
+  }
+  
+  body {
+    font-family: "YS", Arial, sans-serif;
+    background: #f5f0e6;
+    letter-spacing: 0.02em; 
+    background-image: 
+      radial-gradient(circle at 50% 50%, rgba(212, 175, 55, 0.03) 0%, transparent 70%),
+      url('data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIxMDAlIiBoZWlnaHQ9IjEwMCUiPjxkZWZzPjxwYXR0ZXJuIGlkPSJ0ZXh0dXJlIiB4PSIwIiB5PSIwIiB3aWR0aD0iMjAwIiBoZWlnaHQ9IjIwMCIgcGF0dGVyblVuaXRzPSJ1c2VyU3BhY2VPblVzZSI+PHBhdGggZD0iTTEwMCAxMDBNMCwxMDBNMCwwTDEwMCwwTDEwMCwxMDBaIiBmaWxsPSJub25lIiBzdHJva2U9IiNkNGFmMzciIHN0cm9rZS13aWR0aD0iMC4xIiBvcGFjaXR5PSIwLjA1Ii8+PC9wYXR0ZXJuPjwvZGVmcz48cmVjdCB3aWR0aD0iMTAwJSIgaGVpZ2h0PSIxMDAlIiBmaWxsPSJ1cmwoI3RleHR1cmUpIi8+PC9zdmc+');
+    background-attachment: fixed;
+    background-size: cover;
+  }
+  
+  h1, h2, h3, h4, h5, h6 {
+    font-family: "YS", Arial, sans-serif;
+    font-weight: 600;
+    letter-spacing: -0.9px;
+    color: #3d301f;
+  }
+  
+  p, li, span {
+    line-height: 1.7;
+  }
+}
+
+/* ====================== УТИЛИТАРНЫЕ КЛАССЫ ====================== */
+@layer utilities {
+  /* Золотой divider с лёгким орнаментом */
+  .divider-gold {
+    height: 1px;
+    background: linear-gradient(to right, transparent, #d4af37, transparent);
+    position: relative;
+  }
+  .divider-gold::before {
+    content: '';
+    position: absolute;
+    top: -8px;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 60px;
+    height: 16px;
+    background: url('data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSI2MCIgaGVpZ2h0PSIxNiI+PHBhdGggZD0iTTAuNSwwLjUgTDMwLDE1LjUgTDU5LjUsMC41IiBmaWxsPSJub25lIiBzdHJva2U9IiNkNGFmMzciIHN0cm9rZS13aWR0aD0iMSIvPjwvc3ZnPg==') no-repeat center;
+    opacity: 0.4;
+  }
+
+  /* Hover lift для карточек */
+  .card-hover {
+    @apply transition-all duration-500;
+  }
+  .card-hover:hover {
+    @apply -translate-y-4 shadow-2xl;
+    box-shadow: 0 25px 50px rgba(0,0,0,0.1);
+  }
+
+  /* Текст с градиентом */
+  .text-gradient-gold {
+    @apply bg-gradient-to-r from-[#d4af37] to-[#b89b72] bg-clip-text text-transparent;
+  }
+}
+
+/* ====================== СКРОЛЛБАР ====================== */
+::-webkit-scrollbar {
+  width: 10px;
+}
+
+::-webkit-scrollbar-track {
+  background: #f5f0e6;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #d4af37;
+  border-radius: 5px;
+  transition: background 0.3s;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #b89b72;
+}
+
+/* ====================== SWIPER КАСТОМ ====================== */
+.swiper-pagination-bullet {
+  width: 12px;
+  height: 12px;
+  background: rgba(212, 175, 55, 0.4);
+  opacity: 1;
+  transition: all 0.3s;
+}
+
+.swiper-pagination-bullet-active {
+  background: #d4af37;
+  width: 20px;
+  border-radius: 10px;
+}
+
+/* Кнопки навигации Swiper */
+.swiper-button-prev,
+.swiper-button-next {
+  width: 56px !important;
+  height: 56px !important;
+  background: rgba(255, 255, 255, 0.7) !important;
+  backdrop-filter: blur(10px);
+  border-radius: 50% !important;
+  border: 1px solid #e8e0d5 !important;
+  transition: all 0.3s !important;
+}
+
+.swiper-button-prev:hover,
+.swiper-button-next:hover {
+  background: #d4af37 !important;
+  transform: scale(1.1);
+}
+
+.swiper-button-prev::after,
+.swiper-button-next::after {
+  font-size: 20px !important;
+  color: #5c4033;
+}
+
+/* ====================== ДОПОЛНИТЕЛЬНЫЕ УЛУЧШЕНИЯ ====================== */
+/* Лёгкий шум для текстуры (опционально, поверх древесной) */
+body::before {
+  content: '';
+  position: fixed;
+  inset: 0;
+  background: url('data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIxMDAlIiBoZWlnaHQ9IjEwMCUiPjxmaWx0ZXIgaWQ9Im4iPjxmZVR1cmJ1bGVuY2UgdHlwZT0iZnJhY3RhbE5vaXNlIiBiYXNlRnJlcXVlbmN5PSIwLjciIG51bU9jdGF2ZXM9IjQiIHN0aXRjaFRpbGVzPSJzdGl0Y2giLz48L2ZpbHRlcj48cmVjdCB3aWR0aD0iMTAwJSIgaGVpZ2h0PSIxMDAlIiBmaWx0ZXI9InVybCgjbikiIG9wYWNpdHk9IjAuMDIiLz48L3N2Zz4=');
+  pointer-events: none;
+  z-index: -1;
+}
+
+/* Улучшенные кнопки */
+.btn-primary {
+  @apply px-10 py-4 bg-[#d4af37] text-white rounded-xl font-medium shadow-lg hover:bg-[#b89b72] hover:shadow-xl transition-all;
+}
+
+.btn-secondary {
+  @apply px-10 py-4 border-2 border-[#d4af37] text-[#4a3c2a] rounded-xl font-medium hover:bg-[#d4af37] hover:text-white transition-all;
+}

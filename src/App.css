@@ -1,0 +1,39 @@
+#root {
+  max-width: 100%;
+}
+
+/* Убираем стандартные анимации логотипа */
+@media (prefers-reduced-motion: no-preference) {
+  .fade-in-section {
+    animation: fadeInUp 0.8s ease forwards;
+  }
+}
+
+@keyframes fadeInUp {
+  from {
+    opacity: 0;
+    transform: translateY(20px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+/* Утилитарные классы для контейнеров */
+.container-narrow {
+  max-width: 1280px;
+  margin: 0 auto;
+}
+
+.section-spacing {
+  padding-top: 5rem;
+  padding-bottom: 5rem;
+}
+
+@media (max-width: 768px) {
+  .section-spacing {
+    padding-top: 3rem;
+    padding-bottom: 3rem;
+  }
+}

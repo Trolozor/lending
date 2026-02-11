@@ -1,0 +1,112 @@
+{
+"oil_images": {
+"26": [
+{
+"type": "front",
+"src": "/src/assets/catalog/oil/26/DSC00987-artguru-artguru.jpg"
+},
+{
+"type": "front_preview",
+"src": "/src/assets/catalog/oil/26/DSC00987-artguru-artguru.jpg"
+},
+{
+"type": "right",
+"src": "/src/assets/catalog/oil/26/DSC00989-artguru-artguru.jpg"
+},
+{
+"type": "product",
+"src": "/src/assets/catalog/oil/26/DSC00990-artguru-artguru.jpg"
+}
+],
+"27": [
+{
+"type": "front",
+"src": "/src/assets/catalog/oil/27/DSC00991-artguru-artguru.jpg"
+},
+{
+"type": "front_preview",
+"src": "/src/assets/catalog/oil/27/DSC00991-artguru-artguru.jpg"
+},
+{
+"type": "right",
+"src": "/src/assets/catalog/oil/27/DSC00992-artguru-artguru.jpg"
+},
+{
+"type": "product",
+"src": "/src/assets/catalog/oil/27/DSC00993-artguru-artguru.jpg"
+}
+],
+"28": [
+{
+"type": "front",
+"src": "/src/assets/catalog/oil/28/DSC00997-artguru-artguru.jpg"
+},
+{
+"type": "front_preview",
+"src": "/src/assets/catalog/oil/28/DSC00997-artguru-artguru.jpg"
+},
+{
+"type": "right",
+"src": "/src/assets/catalog/oil/28/DSC00998-artguru-artguru.jpg"
+},
+{
+"type": "product",
+"src": "/src/assets/catalog/oil/28/DSC00999-artguru(2)-artguru.jpg"
+}
+],
+"29": [
+{
+"type": "front",
+"src": "/src/assets/catalog/oil/29/DSC00994-artguru-artguru.jpg"
+},
+{
+"type": "front_preview",
+"src": "/src/assets/catalog/oil/29/DSC00994-artguru-artguru.jpg"
+},
+{
+"type": "right",
+"src": "/src/assets/catalog/oil/29/DSC00995-artguru-artguru.jpg"
+},
+{
+"type": "product",
+"src": "/src/assets/catalog/oil/29/DSC00996-artguru-artguru.jpg"
+}
+],
+"30": [
+{
+"type": "front",
+"src": "/src/assets/catalog/oil/30/DSC01000-artguru-artguru.jpg"
+},
+{
+"type": "front_preview",
+"src": "/src/assets/catalog/oil/30/DSC01000-artguru-artguru.jpg"
+},
+{
+"type": "right",
+"src": "/src/assets/catalog/oil/30/DSC01002-artguru-artguru.jpg"
+},
+{
+"type": "product",
+"src": "/src/assets/catalog/oil/30/DSC01004-artguru-artguru.jpg"
+}
+],
+"31": [
+{
+"type": "front",
+"src": "/src/assets/catalog/oil/31/DSC01005-artguru-artguru.jpg"
+},
+{
+"type": "front_preview",
+"src": "/src/assets/catalog/oil/31/DSC01005-artguru-artguru.jpg"
+},
+{
+"type": "right",
+"src": "/src/assets/catalog/oil/31/DSC01006-artguru (1)-artguru.jpg"
+},
+{
+"type": "product",
+"src": "/src/assets/catalog/oil/31/DSC01007-artguru-artguru.jpg"
+}
+]
+}
+}

@@ -1,0 +1,194 @@
+{
+  "balham_images": {
+    "46": [
+      {
+        "type": "box_front",
+        "src": "/src/assets/catalog/balham/46/DSC09149.jpg"
+      },
+      {
+        "type": "right",
+        "src": "/src/assets/catalog/balham/46/DSC09150.jpg"
+      },
+      {
+        "type": "back",
+        "src": "/src/assets/catalog/balham/46/DSC09151.jpg"
+      },
+      {
+        "type": "jar",
+        "src": "/src/assets/catalog/balham/46/DSC09155.jpg"
+      },
+      {
+        "type": "jar_closed",
+        "src": "/src/assets/catalog/balham/46/DSC09158.jpg"
+      },
+      {
+        "type": "product",
+        "src": "/src/assets/catalog/balham/46/DSC09375.jpg"
+      }
+    ],
+    "47": [
+      {
+        "type": "jar",
+        "src": "/src/assets/catalog/balham/47/DSC00974-artguru.jpg"
+      },
+      {
+        "type": "right",
+        "src": "/src/assets/catalog/balham/47/DSC00975-artguru-artguru.jpg"
+      },
+      {
+        "type": "jar_closed",
+        "src": "/src/assets/catalog/balham/47/DSC00976-artguru-artguru.jpg"
+      },
+      {
+        "type": "back",
+        "src": "/src/assets/catalog/balham/47/DSC01008-artguru.jpg"
+      }
+    ],
+    "48": [
+      {
+        "type": "jar",
+        "src": "/src/assets/catalog/balham/48/DSC01023-artguru-artguru.jpg"
+      },
+      {
+        "type": "right",
+        "src": "/src/assets/catalog/balham/48/DSC01024-artguru.jpg"
+      },
+      {
+        "type": "jar_closed",
+        "src": "/src/assets/catalog/balham/48/DSC01026-artguru-artguru.jpg"
+      },
+      {
+        "type": "product",
+        "src": "/src/assets/catalog/balham/48/DSC01027-artguru (1)-artguru.jpg"
+      }
+    ],
+    "49": [
+      {
+        "type": "jar",
+        "src": "/src/assets/catalog/balham/49/DSC00965-2-artguru-artguru.jpg"
+      },
+      {
+        "type": "right",
+        "src": "/src/assets/catalog/balham/49/DSC00967-artguru-artguru.jpg"
+      },
+      {
+        "type": "product",
+        "src": "/src/assets/catalog/balham/49/DSC00968-artguru-artguru.jpg"
+      },
+      {
+        "type": "back",
+        "src": "/src/assets/catalog/balham/49/DSC01019-artguru.jpg"
+      }
+    ],
+    "50": [
+      {
+        "type": "jar",
+        "src": "/src/assets/catalog/balham/50/DSC00932-artguru.jpg"
+      },
+      {
+        "type": "jar_side",
+        "src": "/src/assets/catalog/balham/50/DSC00972-artguru-artguru.jpg"
+      },
+      {
+        "type": "right",
+        "src": "/src/assets/catalog/balham/50/DSC00978-artguru-artguru.jpg"
+      },
+      {
+        "type": "product",
+        "src": "/src/assets/catalog/balham/50/DSC01021-artguru.jpg"
+      }
+    ],
+    "51": [
+      {
+        "type": "box_front",
+        "src": "/src/assets/catalog/balham/51/DSC09720.jpg"
+      },
+      {
+        "type": "right",
+        "src": "/src/assets/catalog/balham/51/DSC09721.jpg"
+      },
+      {
+        "type": "back",
+        "src": "/src/assets/catalog/balham/51/DSC09722.jpg"
+      },
+      {
+        "type": "jar",
+        "src": "/src/assets/catalog/balham/51/DSC09728.jpg"
+      },
+      {
+        "type": "jar_closed",
+        "src": "/src/assets/catalog/balham/51/DSC09733.jpg"
+      },
+      {
+        "type": "product",
+        "src": "/src/assets/catalog/balham/51/DSC09737.jpg"
+      }
+    ],
+    "52": [
+      {
+        "type": "box_front",
+        "src": "/src/assets/catalog/balham/52/DSC00982-artguru-artguru.jpg"
+      },
+      {
+        "type": "right",
+        "src": "/src/assets/catalog/balham/52/DSC00983-artguru-artguru.jpg"
+      },
+      {
+        "type": "jar_closed",
+        "src": "/src/assets/catalog/balham/52/DSC00984-artguru-artguru (1).jpg"
+      },
+      {
+        "type": "jar_side",
+        "src": "/src/assets/catalog/balham/52/DSC00986-artguru-artguru.jpg"
+      },
+      {
+        "type": "back",
+        "src": "/src/assets/catalog/balham/52/DSC01012.jpg"
+      }
+    ],
+    "53": [
+      {
+        "type": "box_front",
+        "src": "/src/assets/catalog/balham/53/DSC09068.jpg"
+      },
+      {
+        "type": "right",
+        "src": "/src/assets/catalog/balham/53/DSC09069.jpg"
+      },
+      {
+        "type": "back",
+        "src": "/src/assets/catalog/balham/53/DSC09070.jpg"
+      },
+      {
+        "type": "jar",
+        "src": "/src/assets/catalog/balham/53/DSC09074.jpg"
+      },
+      {
+        "type": "jar_closed",
+        "src": "/src/assets/catalog/balham/53/DSC09077.jpg"
+      },
+      {
+        "type": "product",
+        "src": "/src/assets/catalog/balham/53/DSC09377.jpg"
+      }
+    ],
+    "54": [
+      {
+        "type": "jar",
+        "src": "/src/assets/catalog/balham/54/DSC00970-artguru-artguru.jpg"
+      },
+      {
+        "type": "right",
+        "src": "/src/assets/catalog/balham/54/DSC00971-artguru-artguru.jpg"
+      },
+      {
+        "type": "jar_side",
+        "src": "/src/assets/catalog/balham/54/DSC00972-artguru-artguru.jpg"
+      },
+      {
+        "type": "product",
+        "src": "/src/assets/catalog/balham/54/DSC01015-artguru.jpg"
+      }
+    ]
+  }
+}
