@@ -37,7 +37,7 @@ const Hero = () => {
     navigate('/contacts');
   };
 
-  // Единая анимация появления для всего контентного блока
+  
   const contentVariants = {
     hidden: { opacity: 0, y: 30 },
     visible: {
@@ -47,7 +47,7 @@ const Hero = () => {
         duration: 1.2,
         ease: 'easeOut',
         when: 'beforeChildren',
-        staggerChildren: 0, // лёгкий каскад для дочерних элементов, можно убрать в 0
+        staggerChildren: 0, 
       },
     },
   };

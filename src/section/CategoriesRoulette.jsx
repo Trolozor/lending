@@ -5,7 +5,7 @@ import { motion } from 'framer-motion';
 import { useNavigate } from 'react-router-dom';
 import { ChevronLeft, ChevronRight } from 'lucide-react';
 
-// Импорт изображений для категорий
+
 import teaPreview from '../assets/catalog/tea/tea_preview.jpg';
 import spicePreview from '../assets/catalog/spice/spice_preview.jpg';
 import barPreview from '../assets/catalog/bar/bar_preview.jpg';
@@ -18,7 +18,7 @@ import otherPreview from '../assets/catalog/other/other_preview.jpg';
 import candyPreview from '../assets/catalog/candys/candy_preview.jpg';
 import yrbechPreview from '../assets/catalog/yrbech/yrbech_preview.jpg';
 
-// Импортируем стили Swiper
+
 import 'swiper/css';
 import 'swiper/css/effect-coverflow';
 import 'swiper/css/navigation';

@@ -23,7 +23,7 @@ const Product = ({ product, category, mode = 'preview', onProductClick }) => {
   const [currentImageIndex, setCurrentImageIndex] = useState(0);
   const [showImageNavigation, setShowImageNavigation] = useState(false);
   
-  // Получаем данные изображений в зависимости от категории
+  
   const productImagesData = useMemo(() => {
     if (category?.name === 'Чай') {
       return tea_images.tea_images || {};
@@ -51,25 +51,25 @@ const Product = ({ product, category, mode = 'preview', onProductClick }) => {
     return {};
   }, [category]);
   
-  // Получаем все изображения для текущего продукта
+  
   const allProductImages = useMemo(() => {
     return productImagesData[product.id] || [];
   }, [productImagesData, product.id]);
   
-  // Фильтруем галерейные изображения (все кроме front_preview)
+  
   const galleryImages = useMemo(() => {
     return allProductImages.filter(img => img.type !== 'front_preview');
   }, [allProductImages]);
   
-  // Находим превью-изображение для карточки продукта
+  
   const frontPreviewImage = useMemo(() => {
     return allProductImages.find(img => img.type === 'front_preview');
   }, [allProductImages]);
 
-  // Ищем альтернативное изображение, если нет front_preview
+  
   const previewImage = useMemo(() => {
     if (frontPreviewImage) return frontPreviewImage;
-    // Если нет front_preview, используем первое изображение с типом 'front' или первое доступное
+    
     return allProductImages.find(img => img.type === 'front') || allProductImages[0];
   }, [frontPreviewImage, allProductImages]);
 
@@ -107,7 +107,7 @@ const Product = ({ product, category, mode = 'preview', onProductClick }) => {
     }
   }, [galleryImages]);
 
-  // Swipe handlers для мобильных устройств
+  
   const swipeHandlers = useSwipeable({
     onSwipedLeft: handleNextImage,
     onSwipedRight: handlePrevImage,
@@ -115,7 +115,7 @@ const Product = ({ product, category, mode = 'preview', onProductClick }) => {
     preventScrollOnSwipe: true
   });
 
-  // Режим превью
+  
   if (mode === 'preview') {
     return (
       <motion.div
@@ -152,7 +152,7 @@ const Product = ({ product, category, mode = 'preview', onProductClick }) => {
     );
   }
 
-  // Режим детального просмотра
+  
   return (
     <>
       <motion.div

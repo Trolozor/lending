@@ -3,7 +3,7 @@ import { motion, useInView } from 'framer-motion';
 import { useRef } from 'react';
 import { ArrowRight, Star, Check, Leaf, Shield } from 'lucide-react';
 
-// Импортируем все ваши фотографии
+
 import yrbechMain from "../assets/ProductShowcase/yrbech.png";
 import yrbechContext from "../assets/ProductShowcase/yrbech_context.png";
 import yrbechPackaging from "../assets/ProductShowcase/yrbech_packaging.png";

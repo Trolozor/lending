@@ -29,9 +29,9 @@ const ImageModal = ({
     }
   }, [isOpen, currentIndex]);
 
-  // Обработчик свайпа для переключения изображений
+  
   const handleTouchStart = useCallback((e) => {
-    if (zoomLevel > 1) return; // Если увеличен, то свайп не переключает
+    if (zoomLevel > 1) return; 
     
     const touch = e.touches[0];
     setTouchStart({
@@ -47,7 +47,7 @@ const ImageModal = ({
     const touch = e.touches[0];
     const deltaX = touch.clientX - touchStart.x;
     
-    // Блокируем вертикальный скролл при горизонтальном свайпе
+    
     if (Math.abs(deltaX) > 10) {
       e.preventDefault();
     }
@@ -60,15 +60,15 @@ const ImageModal = ({
     const deltaX = touch.clientX - touchStart.x;
     const deltaTime = Date.now() - touchStart.time;
     
-    // Определяем свайп
+    
     if (Math.abs(deltaX) > 50 && deltaTime < 300) {
       if (deltaX > 0) {
-        // Свайп вправо - предыдущее изображение
+        
         setModalImageIndex(prev => 
           prev === 0 ? images.length - 1 : prev - 1
         );
       } else {
-        // Свайп влево - следующее изображение
+        
         setModalImageIndex(prev => 
           prev === images.length - 1 ? 0 : prev + 1
         );
@@ -80,7 +80,7 @@ const ImageModal = ({
     setTouchStart(null);
   }, [zoomLevel, touchStart, images.length]);
 
-  // Обработчик двойного тапа для увеличения
+  
   const handleDoubleTap = useCallback((e) => {
     e.preventDefault();
     
@@ -88,9 +88,9 @@ const ImageModal = ({
     const timeDiff = currentTime - lastTouchTime;
     
     if (timeDiff < 300) {
-      // Двойной тап
+      
       if (zoomLevel === 1) {
-        // Увеличиваем в точке тапа
+        
         const rect = imageContainerRef.current?.getBoundingClientRect();
         if (rect) {
           const touch = e.touches ? e.touches[0] : e;
@@ -103,7 +103,7 @@ const ImageModal = ({
           const newZoom = 2;
           const scaleChange = newZoom - zoomLevel;
           
-          // Рассчитываем позицию для увеличения в точке тапа
+          
           setImagePosition({
             x: -((tapX - containerCenterX) * (scaleChange / newZoom)),
             y: -((tapY - containerCenterY) * (scaleChange / newZoom))
@@ -112,14 +112,14 @@ const ImageModal = ({
           setZoomLevel(newZoom);
         }
       } else {
-        // Сбрасываем зум
+        
         setZoomLevel(1);
         setImagePosition({ x: 0, y: 0 });
       }
       
       setLastTouchTime(0);
     } else {
-      // Первый тап
+      
       setLastTouchTime(currentTime);
     }
   }, [zoomLevel, lastTouchTime]);
@@ -172,7 +172,7 @@ const ImageModal = ({
     setImagePosition({ x: 0, y: 0 });
   }, []);
 
-  // Обработчики drag для увеличенного изображения
+  
   const handleMouseDown = useCallback((e) => {
     if (zoomLevel > 1) {
       setIsDragging(true);
@@ -195,7 +195,7 @@ const ImageModal = ({
     setIsDragging(false);
   }, []);
 
-  // Touch handlers для drag увеличенного изображения
+  
   const handleTouchStartDrag = useCallback((e) => {
     if (zoomLevel > 1) {
       setIsDragging(true);
@@ -281,7 +281,7 @@ const ImageModal = ({
                 handleTouchStartDrag(e);
               } else {
                 handleTouchStart(e);
-                // Также проверяем двойной тап
+                
                 handleDoubleTap(e);
               }
             }}

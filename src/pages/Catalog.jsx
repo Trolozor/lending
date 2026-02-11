@@ -4,7 +4,7 @@ import { Search, ChevronLeft, ChevronRight, Info } from 'lucide-react';
 import { useLocation, useNavigate } from 'react-router-dom';
 import Product from './Product';
 
-// Импорт изображений для категорий
+
 import teaPreview from '../assets/catalog/tea/tea_preview.jpg';
 import spicePreview from '../assets/catalog/spice/spice_preview.png';
 import barPreview from '../assets/catalog/bar/bar_preview.png';
@@ -38,7 +38,7 @@ const Catalog = () => {
         setSelectedCategory(category);
         setFilteredProducts(category.products);
         
-        // Если есть productId, находим и отображаем продукт
+        
         if (productId) {
           const product = category.products.find(p => p.id === parseInt(productId));
           if (product) {
@@ -255,7 +255,7 @@ useEffect(() => {
         setSelectedCategory(category);
         setFilteredProducts(category.products);
         
-        // Если есть productId, находим и отображаем продукт
+        
         if (productId) {
           const product = category.products.find(p => p.id === parseInt(productId));
           if (product) {
@@ -291,7 +291,7 @@ useEffect(() => {
 
     setFilteredCategories(results);
     
-    // Если выбрана категория, фильтруем продукты в ней
+    
     if (selectedCategory) {
       const filtered = selectedCategory.products.filter(product =>
         product.name.toLowerCase().includes(searchTerm.toLowerCase()) ||
@@ -414,7 +414,7 @@ useEffect(() => {
         {/* Контент каталога */}
         <AnimatePresence mode="wait">
           {selectedProduct ? (
-            // Режим детального просмотра продукта
+            
             <motion.div
               key="product-detail"
               initial={{ opacity: 0, y: 20 }}
@@ -430,7 +430,7 @@ useEffect(() => {
               />
             </motion.div>
           ) : !selectedCategory ? (
-            // Режим выбора категории
+            
             <motion.div
               key="categories"
               initial={{ opacity: 0 }}
@@ -476,7 +476,7 @@ useEffect(() => {
               ))}
             </motion.div>
           ) : (
-            // Режим просмотра продуктов выбранной категории
+            
             <motion.div
               key="products-list"
               initial={{ opacity: 0 }}

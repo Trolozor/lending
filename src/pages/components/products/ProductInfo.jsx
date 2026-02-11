@@ -65,21 +65,21 @@ const ProductInfo = ({ product, category }) => {
     return product;
   }, [category, product]);
 
-  // Сбрасываем состояния при смене продукта
+  
   useEffect(() => {
     setIsDescriptionExpanded(false);
     setSelectedProductIndex(0);
   }, [productData]);
 
-  // Проверяем, является ли продукт набором
+  
   const isSet = category?.name === 'Наборы' && productData.products && Array.isArray(productData.products);
   
-  // Получаем текущий продукт (либо основной, либо выбранный продукт из набора)
+  
   const currentProduct = isSet && productData.products[selectedProductIndex] 
     ? productData.products[selectedProductIndex] 
     : productData;
 
-  // Функция для отображения описания с кнопкой раскрытия
+  
   const renderDescriptionText = (text) => {
     if (!text) return null;
     
@@ -115,7 +115,7 @@ const ProductInfo = ({ product, category }) => {
     );
   };
 
-  // Форматирование списка состава
+  
   const renderComposition = () => {
     if (!currentProduct.composition || !Array.isArray(currentProduct.composition)) {
       return <p className="text-[#5a4a3a]">Натуральные ингредиенты</p>;
@@ -132,7 +132,7 @@ const ProductInfo = ({ product, category }) => {
     );
   };
 
-  // Рендер пищевой ценности
+  
   const renderNutrition = () => {
     if (!currentProduct.nutrition) return null;
     
@@ -167,7 +167,7 @@ const ProductInfo = ({ product, category }) => {
     );
   };
 
-  // Рендер особенностей продукта
+  
   const renderFeatures = () => {
     if (!productData.features || !Array.isArray(productData.features)) return null;
     
@@ -188,7 +188,7 @@ const ProductInfo = ({ product, category }) => {
     );
   };
 
-  // Компонент для переключения продуктов в наборе
+  
   const renderProductSwitcher = () => {
     if (!isSet || !productData.products || productData.products.length <= 1) return null;
 
@@ -220,7 +220,7 @@ const ProductInfo = ({ product, category }) => {
     );
   };
 
-  // Мобильные вкладки
+  
   const mobileTabs = [
     { id: 'description', label: 'Описание', icon: Info },
     { id: 'composition', label: 'Состав', icon: Leaf },

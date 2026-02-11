@@ -1,4 +1,4 @@
-// ProductImages.jsx
+
 import { useState, useEffect, useMemo, useRef } from 'react';
 import { motion } from 'framer-motion';
 import { ChevronLeft, ChevronRight } from 'lucide-react';
@@ -139,7 +139,7 @@ const ProductImages = ({
     );
   }
 
-  // Режим детального просмотра
+  
   if (galleryImages.length === 0) {
     return (
       <div className="w-full h-48 sm:h-56 md:h-72 rounded-xl sm:rounded-2xl bg-gradient-to-br from-gray-100 to-gray-200 flex items-center justify-center">

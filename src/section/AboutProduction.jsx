@@ -6,15 +6,15 @@ import third from "../assets/AboutProduction/third.jpg"
 import fourth from "../assets/AboutProduction/fourth.jpg"
 
 const AboutProduction = () => {
-  // Фото из поиска: виды Пятигорска для фона и иллюстраций
+  
   const regionImages = [
-    'https://thumbs.dreamstime.com/b/landscape-pyatigorsk-view-beshtau-mount-under-beautiful-clouds-russia-mountain-landmark-stavropol-krai-scenery-blue-253221570.jpg', // Бештау
-    'https://thumbs.dreamstime.com/b/mashuk-mount-mist-pyatigorsk-stavropol-krai-russia-landscape-mountain-slope-foggy-view-forest-theme-nature-caucasus-misty-253729417.jpg', // Машук в тумане
-    'https://thumbs.dreamstime.com/b/landscape-pyatigorsk-view-city-beshtau-mount-background-russia-mountain-landmark-stavropol-krai-scenic-panorama-253221552.jpg', // Панорама
-    'https://media.istockphoto.com/id/1147088792/photo/five-headed-mountain-beshtau-in-the-city-of-pyatigorsk-caucasus-russia.jpg?s=1024x1024&w=is&k=20&c=Y-pvrQDyHMbBioO8Mn2KVEPjijlfflJBFNvPloW5MM0=', // Бештау
+    'https://thumbs.dreamstime.com/b/landscape-pyatigorsk-view-beshtau-mount-under-beautiful-clouds-russia-mountain-landmark-stavropol-krai-scenery-blue-253221570.jpg', 
+    'https://thumbs.dreamstime.com/b/mashuk-mount-mist-pyatigorsk-stavropol-krai-russia-landscape-mountain-slope-foggy-view-forest-theme-nature-caucasus-misty-253729417.jpg', 
+    'https://thumbs.dreamstime.com/b/landscape-pyatigorsk-view-city-beshtau-mount-background-russia-mountain-landmark-stavropol-krai-scenic-panorama-253221552.jpg', 
+    'https://media.istockphoto.com/id/1147088792/photo/five-headed-mountain-beshtau-in-the-city-of-pyatigorsk-caucasus-russia.jpg?s=1024x1024&w=is&k=20&c=Y-pvrQDyHMbBioO8Mn2KVEPjijlfflJBFNvPloW5MM0=', 
   ];
 
-  // Фото производства (rustic мастерские мёда/сладостей как аналог)
+  
   const productionImages = [ first, second, third, fourth];
 
   const containerVariants = {

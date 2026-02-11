@@ -46,13 +46,13 @@ const About = () => {
   const containerRef = useRef(null);
   const principlesSectionRef = useRef(null);
   
-  // Используем useScroll для отслеживания скролла всего документа
+  
   const { scrollYProgress } = useScroll({
     target: principlesSectionRef,
     offset: ["start start", "end end"]
   });
 
-  // Трансформируем прогресс скролла в индекс активного принципа
+  
   const activeIndex = useTransform(
     scrollYProgress,
     [0, 0.33, 0.66, 1],
