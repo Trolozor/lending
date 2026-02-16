@@ -12,7 +12,7 @@ const Footer = () => {
     <footer className="bg-[#3c2d1e] text-white py-16">
       <div className="mx-5 md:mx-25 px-4">
         <div className="grid justify-between grid-cols-1 md:grid-cols-4 gap-10 mb-12">
-          {/* Лого и описание */}
+          
           <div className='col-span-2'>
             <div className="flex items-center space-x-4 mb-6">
               <div className="w-14 h-14 bg-white rounded-2xl flex items-center justify-center">
@@ -34,7 +34,7 @@ const Footer = () => {
             </p>
           </div>
 
-          {/* Навигация */}
+          
           <div className='col-span-2 md:col-span-1'>
             <h3 className="text-xl text-white mb-6">Навигация</h3>
             <ul className="space-y-4">
@@ -58,7 +58,7 @@ const Footer = () => {
             </ul>
           </div>
 
-          {/* Контакты */}
+          
           <div className="space-y-6">
             <div className="flex items-center space-x-4">
               <MapPin className="w-6 h-6 text-[#d4af37]" />

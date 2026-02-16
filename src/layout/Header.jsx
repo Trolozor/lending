@@ -35,7 +35,7 @@ const Header = () => {
     }`}>
       <div className="max-w-7xl mx-auto px-4">
         <div className="flex items-center justify-between">
-          {/* Логотип */}
+          
           <motion.div
             initial={{ opacity: 0, x: -30 }}
             animate={{ opacity: 1, x: 0 }}
@@ -60,7 +60,7 @@ const Header = () => {
             </Link>
           </motion.div>
 
-          {/* Desktop меню */}
+          
           <nav className="hidden lg:flex items-center space-x-10">
             {navItems?.map((item) => (
               <Link
@@ -75,18 +75,18 @@ const Header = () => {
             ))}
           </nav>
 
-          {/* Mobile меню кнопка */}
+          
           <button
             className={`lg:hidden p-3 transition-colors ${
               shouldBeDark ? 'text-[#3c2d1e]' : 'text-white'
             }`}
             onClick={() => setIsMenuOpen(!isMenuOpen)}
           >
-            {isMenuOpen ? <X className="w-8 h-8" /> : <Menu className="w-8 h-8" />}
+            {isMenuOpen ? <X className="w-8 h-8 mr-4" /> : <Menu className="w-8 h-8 mr-4" />}
           </button>
         </div>
 
-        {/* Mobile меню */}
+        
         {isMenuOpen && (
           <motion.div
             initial={{ opacity: 0, height: 0 }}

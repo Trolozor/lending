@@ -115,7 +115,7 @@ const ProductShowcase = ({ id }) => {
   return (
     <section id={id} className="py-24 px-4 relative overflow-hidden" style={{ backgroundColor: '#f8f5f0' }}>
       <div className="max-w-6xl mx-auto relative z-10">
-        {/* Заголовок секции */}
+        
         <div className="text-center mb-20">
           <motion.h2
             initial={{ opacity: 0, y: 20 }}
@@ -146,7 +146,7 @@ const ProductShowcase = ({ id }) => {
           </motion.p>
         </div>
 
-        {/* Продукты */}
+        
         <div className="space-y-32">
           {products.map((product, index) => {
             const isImageLeft = index % 2 === 0;
@@ -168,16 +168,16 @@ const ProductShowcase = ({ id }) => {
                 onMouseEnter={() => setHoveredProduct(product.id)}
                 onMouseLeave={() => setHoveredProduct(null)}
               >
-                {/* Акцентная полоска сверху */}
+                
                 <div className="h-1 bg-[#8b6b46]"></div>
                 
                 <div className={`grid grid-cols-1 lg:grid-cols-2 gap-8 p-8 ${
                   isImageLeft ? '' : 'lg:grid-flow-dense'
                 }`}>
-                  {/* Изображение */}
+                  
                   <div className={`relative ${isImageLeft ? '' : 'lg:col-start-2'}`}>
                     <div className="relative group">
-                      {/* Основное изображение */}
+                      
                       <div className="relative bg-white rounded-xl overflow-hidden shadow-sm border border-[#e0d5c5]">
                         <div className="aspect-square p-6 md:p-10 bg-[#f8f5f0]">
                           <motion.img 
@@ -192,7 +192,7 @@ const ProductShowcase = ({ id }) => {
                         </div>
                       </div>
 
-                      {/* Дополнительные миниатюры */}
+                      
                       <div className="flex gap-3 mt-6 justify-center">
                         <button
                           onClick={() => handleImageClick(product.id, 0)}
@@ -221,9 +221,9 @@ const ProductShowcase = ({ id }) => {
                     </div>
                   </div>
 
-                  {/* Описание продукта */}
+                  
                   <div className={`space-y-6 ${isImageLeft ? '' : 'lg:col-start-1 lg:row-start-1'}`}>
-                    {/* Заголовок и цена */}
+                    
                     <div className="space-y-3">
                       <motion.h3
                         initial={{ opacity: 0, y: 10 }}
@@ -235,7 +235,7 @@ const ProductShowcase = ({ id }) => {
                       </motion.h3>
                     </div>
 
-                    {/* Описание */}
+                    
                     <motion.div
                       initial={{ opacity: 0, y: 10 }}
                       animate={isInView ? { opacity: 1, y: 0 } : { opacity: 0, y: 10 }}
@@ -246,7 +246,7 @@ const ProductShowcase = ({ id }) => {
                         {product.description}
                       </div>
                       
-                      {/* Преимущества */}
+                      
                       <div className="pt-2">
                         <div className="text-sm font-medium text-[#5a4a3a] mb-2">Преимущества:</div>
                         <div className="space-y-2">
@@ -263,7 +263,7 @@ const ProductShowcase = ({ id }) => {
                       </div>
                     </motion.div>
 
-                    {/* Теги */}
+                    
                     <motion.div
                       initial={{ opacity: 0, y: 10 }}
                       animate={isInView ? { opacity: 1, y: 0 } : { opacity: 0, y: 10 }}
@@ -285,7 +285,7 @@ const ProductShowcase = ({ id }) => {
                   </div>
                 </div>
                 
-                {/* Разделительная линия внизу */}
+                
                 {index < products.length - 1 && (
                   <div className="h-px bg-[#e0d5c5] mx-8"></div>
                 )}

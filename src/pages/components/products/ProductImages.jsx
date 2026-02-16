@@ -102,7 +102,7 @@ const ProductImages = ({
 
     return (
       <div className="space-y-3 sm:space-y-4">
-        {/* Основное изображение для превью */}
+        
         <motion.div 
           className="w-full h-auto sm:h-56 md:h-72 rounded-xl sm:rounded-2xl overflow-hidden cursor-pointer"
           onClick={onImageClick}
@@ -150,7 +150,7 @@ const ProductImages = ({
 
   return (
     <div className="space-y-3 sm:space-y-4">
-      {/* Основное изображение для детального просмотра */}
+      
       <motion.div 
         className="w-full cursor-zoom-in h-auto sm:h-56 md:h-190 rounded-xl sm:rounded-2xl overflow-hidden relative group cursor-pointer max-w-full"
         onClick={onImageClick}
@@ -166,10 +166,10 @@ const ProductImages = ({
         />
       </motion.div>
 
-      {/* Миниатюры для детального просмотра */}
+      
       {galleryImages.length > 1 && (
         <div className="relative">
-          {/* Кнопки прокрутки для десктопа */}
+          
           <button
             onClick={() => scrollThumbnails('left')}
             className={`absolute left-0 top-1/2 transform -translate-y-1/2 z-10 w-8 h-8 bg-white/90 hover:bg-white border border-gray-200 rounded-full flex items-center justify-center shadow-md transition-all ${
@@ -190,7 +190,7 @@ const ProductImages = ({
             <ChevronRight className="w-4 h-4 text-gray-700" />
           </button>
 
-          {/* Контейнер миниатюр с кастомной прокруткой */}
+          
           <div 
             ref={thumbnailsContainerRef}
             onScroll={handleScroll}
@@ -243,7 +243,7 @@ const ProductImages = ({
             ))}
           </div>
 
-          {/* Индикаторы прокрутки для мобильных */}
+          
           <div className="flex justify-center gap-1 mt-2 sm:hidden">
             {galleryImages.map((_, index) => (
               <div

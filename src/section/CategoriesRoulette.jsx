@@ -165,7 +165,7 @@ const CategoriesRoulette = () => {
   return (
     <section className="overflow-hidden pb-16 h-[85vh] md:h-full bg-[#f8f5f0] overflow-x-hidden w-full">
       <div className="w-full px-4">
-        {/* Заголовок */}
+        
         <motion.div
           initial={{ opacity: 0, y: 30 }}
           whileInView={{ opacity: 1, y: 0 }}
@@ -187,7 +187,7 @@ const CategoriesRoulette = () => {
           </p>
         </motion.div>
 
-        {/* Кастомные кнопки навигации */}
+        
         <div className="flex justify-center items-center gap-4 mb-12">
           <button
             ref={navigationPrevRef}
@@ -198,7 +198,7 @@ const CategoriesRoulette = () => {
             <ChevronLeft className="w-6 h-6 cursor-pointer text-[#5a4a3a] group-hover:text-[#8b6b46] transition-colors" />
           </button>
 
-          {/* Центральный блок с фиксированной шириной */}
+          
           <div className="min-w-[320px] max-w-[400px] mx-4 px-6 py-4 bg-white rounded-xl border border-[#e0d5c5] shadow-sm">
             <div className="text-center">
               <motion.div
@@ -224,7 +224,7 @@ const CategoriesRoulette = () => {
           </button>
         </div>
 
-        {/* Swiper карусель */}
+        
         <div className="swiper-container relative w-full overflow-visible">
           <Swiper
             ref={swiperRef}
@@ -342,7 +342,7 @@ const CategoriesRoulette = () => {
                     transition={{ delay: index * 0.05 }}
                     className="relative h-full rounded-3xl overflow-hidden group cursor-pointer"
                   >
-                    {/* Фото категории */}
+                    
                     <div className="absolute inset-0">
                       <img
                         src={category.image}
@@ -352,9 +352,9 @@ const CategoriesRoulette = () => {
                       <div className="absolute inset-0 bg-gradient-to-t from-black/80 via-black/50 to-transparent" />
                     </div>
 
-                    {/* Контент карточки */}
+                    
                     <div className="relative h-full flex flex-col p-6 md:p-8">
-                      {/* Верхняя часть с названием */}
+                      
                       <div className="flex-1 flex flex-col justify-end">
                         <div className="mb-4">
                           <h3 className="text-2xl md:text-3xl font-bold text-white mb-3 line-clamp-2">
@@ -366,7 +366,7 @@ const CategoriesRoulette = () => {
                         </div>
                       </div>
 
-                      {/* Кнопка перехода */}
+                      
                       <div className="pt-4 border-t border-white/20">
                         <button
                           onClick={(e) => {
@@ -380,7 +380,7 @@ const CategoriesRoulette = () => {
                       </div>
                     </div>
 
-                    {/* Акцентная рамка для активной карточки */}
+                    
                     {isActive && (
                       <div className="absolute inset-0 border-2 border-[#8b6b46] rounded-3xl pointer-events-none" />
                     )}
@@ -390,7 +390,7 @@ const CategoriesRoulette = () => {
             })}
           </Swiper>
 
-          {/* Индикаторы прогресса */}
+          
           <div className="mt-8 flex justify-center gap-1 md:gap-2 overflow-x-auto max-w-full px-4 py-2">
             {categories.map((_, index) => (
               <button

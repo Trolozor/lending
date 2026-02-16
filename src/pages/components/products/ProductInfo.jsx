@@ -232,7 +232,7 @@ const ProductInfo = ({ product, category }) => {
       case 'description':
         return (
           <div className="space-y-4">
-            {/* Описание набора (если это набор) */}
+            
             {isSet && productData.description && (
               <div className="bg-white rounded-xl">
                 <h3 className="text-lg font-semibold text-[#3c2d1e] mb-3 flex items-center">
@@ -243,7 +243,7 @@ const ProductInfo = ({ product, category }) => {
               </div>
             )}
             
-            {/* Описание выбранного продукта */}
+            
             {currentProduct.description && (
               <div className="bg-white rounded-xl">
                 <h3 className="text-lg font-semibold text-[#3c2d1e] mb-3 flex items-center">
@@ -254,7 +254,7 @@ const ProductInfo = ({ product, category }) => {
               </div>
             )}
             
-            {/* Применение */}
+            
             {(currentProduct.brewing || currentProduct.usage || (isSet && productData.usage)) && (
               <div className="bg-white rounded-xl">
                 <h3 className="text-lg font-semibold text-[#3c2d1e] mb-3">
@@ -309,7 +309,7 @@ const ProductInfo = ({ product, category }) => {
       case 'details':
         return (
           <div className="bg-white rounded-xl space-y-4">
-            {/* Упаковка и характеристики */}
+            
             {(currentProduct.packaging || currentProduct.weight || currentProduct.volume) && (
               <div>
                 <h3 className="text-lg font-semibold text-[#3c2d1e] mb-3 flex items-center">
@@ -339,7 +339,7 @@ const ProductInfo = ({ product, category }) => {
               </div>
             )}
 
-            {/* Хранение и срок годности */}
+            
             {(productData.storage || productData.shelf_life) && (
               <div>
                 <h3 className="text-lg font-semibold text-[#3c2d1e] mb-3 flex items-center">
@@ -369,10 +369,10 @@ const ProductInfo = ({ product, category }) => {
               </div>
             )}
 
-            {/* Особенности */}
+            
             {productData.features && renderFeatures()}
             
-            {/* Противопоказания */}
+            
             {(productData.contraindications || productData.contraindication) && (
               <div>
                 <h3 className="text-lg font-semibold text-[#3c2d1e] mb-3 flex items-center">
@@ -385,7 +385,7 @@ const ProductInfo = ({ product, category }) => {
               </div>
             )}
             
-            {/* Примечания */}
+            
             {productData.notes && (
               <div>
                 <h3 className="text-lg font-semibold text-[#3c2d1e] mb-3 flex items-center">
@@ -398,7 +398,7 @@ const ProductInfo = ({ product, category }) => {
               </div>
             )}
             
-            {/* Информация о качестве для разных категорий */}
+            
             {category?.name === 'Чай' && (
               <div className="mt-4">
                 <div className="flex items-start">
@@ -573,9 +573,9 @@ const ProductInfo = ({ product, category }) => {
 
   return (
     <div className="h-full">
-      {/* Десктоп версия */}
+      
       <div className="hidden lg:block space-y-6 md:space-y-8">
-        {/* Заголовок и тип */}
+        
         <div>
           <div className="flex items-start justify-between mb-3">
             <h1 className="text-2xl sm:text-3xl md:text-4xl font-bold text-[#3c2d1e] leading-tight">
@@ -589,10 +589,10 @@ const ProductInfo = ({ product, category }) => {
           </div>
         </div>
 
-        {/* Переключатель продуктов для наборов */}
+        
         {renderProductSwitcher()}
 
-        {/* Описание набора (если это набор) */}
+        
         {isSet && productData.description && (
           <div className="bg-white rounded-xl sm:rounded-2xl ">
             <h3 className="text-lg sm:text-xl font-semibold text-[#3c2d1e] mb-3 flex items-center">
@@ -603,7 +603,7 @@ const ProductInfo = ({ product, category }) => {
           </div>
         )}
 
-        {/* Описание продукта - отображаем только если есть описание */}
+        
         {currentProduct.description && (
           <div className="bg-white rounded-xl sm:rounded-2xl ">
             <h3 className="text-lg sm:text-xl font-semibold text-[#3c2d1e] mb-3 flex items-center">
@@ -614,7 +614,7 @@ const ProductInfo = ({ product, category }) => {
           </div>
         )}
 
-        {/* Состав */}
+        
         <div className="bg-white rounded-xl sm:rounded-2xl ">
           <h3 className="text-lg sm:text-xl font-semibold text-[#3c2d1e] mb-3 flex items-center">
             <Leaf className="w-5 h-5 mr-2" />
@@ -624,7 +624,7 @@ const ProductInfo = ({ product, category }) => {
           {currentProduct.nutrition && renderNutrition()}
         </div>
 
-        {/* Упаковка и характеристики */}
+        
         {(currentProduct.packaging || currentProduct.weight || currentProduct.volume) && (
           <div className="bg-white rounded-xl sm:rounded-2xl ">
             <h3 className="text-lg sm:text-xl font-semibold text-[#3c2d1e] mb-3 flex items-center">
@@ -654,7 +654,7 @@ const ProductInfo = ({ product, category }) => {
           </div>
         )}
 
-        {/* Особенности */}
+        
         {productData.features && (
           <div className="bg-white rounded-xl sm:rounded-2xl ">
             <h3 className="text-lg sm:text-xl font-semibold text-[#3c2d1e] mb-3 flex items-center">
@@ -674,7 +674,7 @@ const ProductInfo = ({ product, category }) => {
           </div>
         )}
 
-        {/* Применение */}
+        
         {(currentProduct.brewing || currentProduct.usage || (isSet && productData.usage)) && (
           <div className="bg-white rounded-xl sm:rounded-2xl ">
             <h3 className="text-lg sm:text-xl font-semibold text-[#3c2d1e] mb-3 flex items-center">
@@ -689,7 +689,7 @@ const ProductInfo = ({ product, category }) => {
           </div>
         )}
 
-        {/* Хранение и срок годности */}
+        
         {(productData.storage || productData.shelf_life) && (
           <div className="bg-white rounded-xl sm:rounded-2xl ">
             <h3 className="text-lg sm:text-xl font-semibold text-[#3c2d1e] mb-3 flex items-center">
@@ -713,7 +713,7 @@ const ProductInfo = ({ product, category }) => {
           </div>
         )}
 
-        {/* Противопоказания */}
+        
         {(productData.contraindications || productData.contraindication) && (
           <div className="bg-white rounded-xl sm:rounded-2xl ">
             <h3 className="text-lg sm:text-xl font-semibold text-[#3c2d1e] mb-3 flex items-center">
@@ -728,7 +728,7 @@ const ProductInfo = ({ product, category }) => {
           </div>
         )}
 
-        {/* Примечания */}
+        
         {productData.notes && (
           <div className="bg-white rounded-xl sm:rounded-2xl ">
             <h3 className="text-lg sm:text-xl font-semibold text-[#3c2d1e] mb-3 flex items-center">
@@ -743,7 +743,7 @@ const ProductInfo = ({ product, category }) => {
           </div>
         )}
 
-        {/* Информация о качестве для разных категорий */}
+        
         {category?.name === 'Чай' && (
           <div className="mt-4 sm:mt-6">
             <div className="flex items-start">
@@ -936,7 +936,7 @@ const ProductInfo = ({ product, category }) => {
         )}
       </div>
 
-      {/* Мобильная версия */}
+      
       <div className="lg:hidden">
         <div className="mb-4 flex items-baseline justify-between mb-3">
           <h1 className="text-2xl font-bold text-[#3c2d1e] mb-1">
@@ -949,10 +949,10 @@ const ProductInfo = ({ product, category }) => {
           )}
         </div>
 
-        {/* Переключатель продуктов для наборов (мобильная версия) */}
+        
         {renderProductSwitcher()}
 
-        {/* Мобильные вкладки */}
+        
         <div className="bg-white border-b border-gray-200 mb-4">
           <div className="flex overflow-x-auto">
             {mobileTabs.map((tab) => (
@@ -972,7 +972,7 @@ const ProductInfo = ({ product, category }) => {
           </div>
         </div>
 
-        {/* Контент мобильных вкладок */}
+        
         <AnimatePresence mode="wait">
           <motion.div
             key={activeTab}

@@ -29,12 +29,12 @@ const AboutProduction = () => {
 
   return (
     <section className="py-24 relative overflow-hidden bg-fixed bg-cover bg-center" style={{ backgroundImage: `url(${regionImages[0]})` }}>
-      <div className="absolute inset-0 bg-[#f5f0e6]/90" /> {/* Бежевый overlay для читаемости */}
+      <div className="absolute inset-0 bg-[#f5f0e6]/90" /> 
 
       <div className="relative max-w-7xl mx-auto px-4">
-        {/* Основной блок: текст + галерея производства */}
+        
         <motion.div variants={containerVariants} initial="hidden" whileInView="visible" viewport={{ once: true }} className="grid lg:grid-cols-2 gap-12 items-center mb-24">
-          {/* Текст слева */}
+          
           <motion.div variants={itemVariants}>
             <h2 className="text-4xl md:text-5xl font-bold text-[#3d301f] mb-8">
               Производство в Пятигорске
@@ -50,7 +50,7 @@ const AboutProduction = () => {
               </p>
             </div>
 
-            {/* Преимущества в карточках */}
+            
             <div className="grid grid-cols-2 gap-6 mt-10">
               <motion.div whileHover={{ y: -8, boxShadow: '0 15px 30px rgba(0,0,0,0.1)' }} className="p-6 bg-white/80 backdrop-blur-md rounded-2xl border border-[#e8e0d5] text-center">
                 <div className="text-4xl mb-4">✋</div>
@@ -65,7 +65,7 @@ const AboutProduction = () => {
             </div>
           </motion.div>
 
-          {/* Галерея производства справа */}
+          
           <motion.div variants={itemVariants} className="grid grid-cols-2 gap-6">
             {productionImages.map((src, i) => (
               <motion.img 
@@ -79,10 +79,10 @@ const AboutProduction = () => {
           </motion.div>
         </motion.div>
 
-        {/* Divider */}
+        
         <div className="h-px bg-gradient-to-r from-transparent via-[#d4af37] to-transparent my-20" />
 
-        {/* CTA блок */}
+        
         <motion.div 
           initial={{ opacity: 0, y: 30 }}
           whileInView={{ opacity: 1, y: 0 }}

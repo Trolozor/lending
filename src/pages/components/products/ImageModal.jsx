@@ -350,7 +350,7 @@ const ImageModal = ({
           </div>
         </motion.div>
 
-        {/* Миниатюры в модальном окне */}
+        
         <div className="absolute bottom-0 left-1/2 transform -translate-x-1/2 flex gap-2 overflow-x-auto max-w-full px-4 pb-2">
           {images.map((img, index) => (
             <button

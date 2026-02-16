@@ -345,7 +345,7 @@ useEffect(() => {
   return (
     <section id="products" className="py-32 px-4 md:px-8 bg-[#f8f5f0]" ref={catalogRef}>
       <div className="max-w-7xl mx-auto">
-        {/* Шапка с навигацией */}
+        
         <div className="flex flex-col md:flex-row justify-between items-start md:items-center mb-12">
           <motion.div
             initial={{ opacity: 0, x: -20 }}
@@ -411,7 +411,7 @@ useEffect(() => {
           </motion.div>
         </div>
 
-        {/* Контент каталога */}
+        
         <AnimatePresence mode="wait">
           {selectedProduct ? (
             
@@ -504,7 +504,7 @@ useEffect(() => {
                 </div>
               </motion.div>
 
-              {/* Список продуктов */}
+              
               {filteredProducts.length > 0 ? (
                 <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-6">
                   {filteredProducts.map((product, index) => (

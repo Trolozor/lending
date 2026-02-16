@@ -8,16 +8,16 @@ const Home = () => {
   return (
     <>
       <main className="w-full">
-        {/* Герой с красивым фото продуктов */}
+        
         <Hero />
         
-        {/* Основной показ товаров (главные хиты) */}
+        
         <ProductShowcase id="product-showcase"/>
         
-        {/* Все категории товаров в сетке */}
+        
         <CategoriesRoulette />
         
-        {/* О производстве */}
+        
         <AboutProduction />
         
       </main>

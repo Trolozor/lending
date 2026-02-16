@@ -163,7 +163,7 @@ const Product = ({ product, category, mode = 'preview', onProductClick }) => {
       >
         <div className="p-4 sm:p-6 md:p-8">
           <div className="grid lg:grid-cols-2 gap-6 sm:gap-8">
-            {/* Левая колонка - изображения */}
+            
             <div 
               {...swipeHandlers} 
               className="relative overflow-hidden"
@@ -185,7 +185,7 @@ const Product = ({ product, category, mode = 'preview', onProductClick }) => {
               </div>
             </div>
 
-            {/* Правая колонка - информация */}
+            
             <div className="lg:pl-0">
               <ProductInfo 
                 product={product}
@@ -196,7 +196,7 @@ const Product = ({ product, category, mode = 'preview', onProductClick }) => {
         </div>
       </motion.div>
 
-      {/* Модальное окно для изображений */}
+      
       <ImageModal
         isOpen={isModalOpen}
         onClose={closeModal}

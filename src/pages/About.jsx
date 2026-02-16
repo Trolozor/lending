@@ -80,7 +80,7 @@ const About = () => {
 
   return (
     <section className="relative bg-[#f8f5f0]" ref={containerRef}>
-      {/* Hero блок */}
+      
       <div className="relative h-screen flex items-center justify-center overflow-hidden">
         <motion.div
           initial={{ scale: 1.1 }}
@@ -123,14 +123,14 @@ const About = () => {
         </div>
       </div>
 
-      {/* Секция с принципами - занимает 300% высоты экрана */}
+      
       <div 
         ref={principlesSectionRef} 
         className="relative"
       >
-        {/* Sticky блок - ВАЖНО: sticky работает только если у родителя нет overflow: hidden */}
+        
         <div className="sticky top-0 h-screen w-full overflow-visible">
-          {/* Фон для текущего принципа */}
+          
           <div className="absolute inset-0 overflow-hidden">
             <motion.div 
               className="absolute inset-0"
@@ -151,7 +151,7 @@ const About = () => {
             <div className="absolute inset-0 bg-[#3c2d1e]/70" />
           </div>
 
-          {/* Контент принципа */}
+          
           <div className="relative z-10 h-full flex items-center justify-center">
             <div className="container mx-auto px-4">
               <motion.div
@@ -174,7 +174,7 @@ const About = () => {
                 </div>
               </motion.div>
 
-              {/* Навигация */}
+              
               <div className="absolute bottom-8 left-1/2 transform -translate-x-1/2 w-full max-w-md px-4">
                 <div className="flex items-center justify-between mb-4">
                   <div className="text-white/80 text-sm">
@@ -185,7 +185,7 @@ const About = () => {
                   </div>
                 </div>
                 
-                {/* Прогресс-бар */}
+                
                 <div className="h-2 bg-white/20 rounded-full overflow-hidden mb-4">
                   <motion.div
                     className="h-full bg-[#d4af37]"
@@ -197,7 +197,7 @@ const About = () => {
                   />
                 </div>
                 
-                {/* Индикаторы */}
+                
                 <div className="flex justify-center gap-4">
                   {principles.map((_, index) => (
                     <button
@@ -217,11 +217,11 @@ const About = () => {
           </div>
         </div>
 
-        {/* Пустое пространство для скролла */}
+        
         <div className="h-[300vh]"></div>
       </div>
 
-      {/* Галерея продуктов */}
+      
       <div className="py-32 px-4 bg-[#3c2d1e]/5">
         <div className="mx-auto">
           <motion.h2
@@ -232,7 +232,7 @@ const About = () => {
           >
             Наши продукты — вкус Кавказа
           </motion.h2>
-          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8 h-350">
+          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8 h-full md:h-350">
             {productImages.map((src, i) => (
               <motion.div
                 key={i}
@@ -240,12 +240,12 @@ const About = () => {
                 whileInView={{ opacity: 1, scale: 1 }}
                 transition={{ delay: i * 0.1 }}
                 whileHover={{ scale: 1.05, y: -10 }}
-                className="group relative overflow-hidden rounded-3xl shadow-2xl cursor-pointer"
+                className="h-100 md:h-full overflow-hidden rounded-3xl shadow-2xl cursor-pointer"
               >
                 <img 
                   src={src} 
                   alt="Продукты" 
-                  className="w-full object-cover transition-transform duration-500 group-hover:scale-110" 
+                  className="w-full object-contain transition-transform duration-500 group-hover:scale-110" 
                 />
               </motion.div>
             ))}

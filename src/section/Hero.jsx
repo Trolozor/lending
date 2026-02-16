@@ -63,7 +63,7 @@ const Hero = () => {
 
   return (
     <section className="relative min-h-screen flex items-center justify-center overflow-hidden">
-      {/* Фон с горами */}
+      
       <motion.div
         initial={{ opacity: 0, scale: 1.1 }}
         animate={{ opacity: 1, scale: 1 }}
@@ -77,7 +77,7 @@ const Hero = () => {
         }}
       />
 
-      {/* Оверлей */}
+      
       <motion.div
         initial={{ opacity: 0 }}
         animate={{ opacity: 1 }}
@@ -85,14 +85,14 @@ const Hero = () => {
         className="absolute inset-0 bg-[#3c2d1e]/30"
       />
 
-      {/* Весь контент — единый блок */}
+      
       <motion.div
         variants={contentVariants}
         initial="hidden"
         animate="visible"
         className="relative z-10 w-full max-w-6xl mx-auto px-4 text-center"
       >
-        {/* Логотип гор */}
+        
         <motion.div variants={childVariants} className="mb-0 mt-2">
           <motion.div
             initial={{ opacity: 0, scale: 0.8 }}
@@ -103,7 +103,7 @@ const Hero = () => {
               stiffness: 200,
               damping: 15,
             }}
-            className="w-48 h-48 mx-auto bg-white/15 rounded-full flex items-center justify-center p-8 border border-white/25"
+            className="w-36 h-36 md:h-48 md:w-48 mx-auto bg-white/15 rounded-full flex items-center justify-center p-8 border border-white/25"
           >
             <div className="text-white text-center">
               <motion.div
@@ -127,27 +127,27 @@ const Hero = () => {
                 <img
                   src={textLogo}
                   alt="Секреты Кавказа"
-                  className="w-64 h-auto mx-auto object-contain"
+                  className="w-64 md:w-64 h-auto mx-auto object-contain"
                 />
               </motion.div>
             </div>
           </motion.div>
         </motion.div>
 
-        {/* Текстовый логотип */}
-        <motion.div variants={childVariants} className="mb-5">
-          <h1 className="text-4xl md:text-6xl lg:text-7xl text-white">
+        
+        <motion.div variants={childVariants} className="mb-2">
+          <h1 className="text-2xl md:text-6xl lg:text-7xl text-white">
             Секреты Кавказа
           </h1>
         </motion.div>
 
-        {/* Заголовок и подзаголовок */}
+        
         <motion.div variants={childVariants}>
           <motion.h2
             initial={{ opacity: 0, y: 15 }}
             animate={{ opacity: 1, y: 0 }}
             transition={{ duration: 0.6 }}
-            className="text-2xl md:text-3xl text-white mb-6 font-normal"
+            className="text-lg md:text-3xl text-white mb-2 font-normal"
           >
             Аутентичные продукты горного Кавказа
           </motion.h2>
@@ -158,12 +158,12 @@ const Hero = () => {
             className="text-sm text-white/85 mb-12 max-w-2xl mx-auto leading-relaxed"
           >
             Натуральные сладости, приправы и мёд ручной работы
-            <br />
+            <br className=''/>
             из самого сердца Пятигорска
           </motion.p>
         </motion.div>
 
-        {/* Кнопки */}
+        
         <motion.div
           variants={childVariants}
           className="block max-[500px]:hidden flex flex-col sm:flex-row gap-4 justify-center mb-24"
@@ -201,7 +201,7 @@ const Hero = () => {
         </motion.div>
       </motion.div>
 
-      {/* Преимущества внизу — всегда видны, появляются вместе с контентом */}
+      
       <motion.div
         initial={{ opacity: 0, y: 30 }}
         animate={{ opacity: 1, y: 0 }}
@@ -210,7 +210,7 @@ const Hero = () => {
       >
         <div className="container mx-auto px-2 w-full">
           <div className="grid grid-cols-1 md:grid-cols-5 gap-4 w-full">
-            {/* Два преимущества слева (десктоп) */}
+            
             <motion.div
               initial={{ opacity: 0, x: -50 }}
               animate={{ opacity: 1, x: 0 }}
@@ -243,7 +243,7 @@ const Hero = () => {
               ))}
             </motion.div>
 
-            {/* Кнопка "Узнать больше" по центру */}
+            
             <motion.div
               initial={{ opacity: 0, scale: 0.9 }}
               animate={{ opacity: 1, scale: 1 }}
@@ -268,7 +268,7 @@ const Hero = () => {
               </motion.div>
             </motion.div>
 
-            {/* Два преимущества справа (десктоп) */}
+            
             <motion.div
               initial={{ opacity: 0, x: 50 }}
               animate={{ opacity: 1, x: 0 }}
@@ -301,7 +301,7 @@ const Hero = () => {
               ))}
             </motion.div>
 
-            {/* Мобильная версия: все 4 преимущества в сетке 2x2 */}
+            
             <motion.div
               initial={{ opacity: 0, y: 20 }}
               animate={{ opacity: 1, y: 0 }}

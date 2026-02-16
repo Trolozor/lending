@@ -57,7 +57,7 @@ const Production = () => {
 
   return (
     <section className="relative bg-white">
-      {/* Hero с параллаксом */}
+      
       <div className="relative h-screen flex items-center justify-center overflow-hidden">
         <motion.div
           initial={{ scale: 1.2, y: 0 }}
@@ -95,7 +95,7 @@ const Production = () => {
           </motion.p>
         </div>
 
-        {/* Scroll indicator */}
+        
         <motion.div
           initial={{ opacity: 0 }}
           animate={{ opacity: 1 }}
@@ -113,7 +113,7 @@ const Production = () => {
         </motion.div>
       </div>
 
-      {/* Процесс производства */}
+      
       <div className="py-32 px-4 bg-gradient-to-b from-white to-[#f8f5f0]">
         <div className="max-w-7xl mx-auto">
           <div className="text-center mb-20">
@@ -159,13 +159,13 @@ const Production = () => {
                     isEven ? '' : 'lg:flex-row-reverse'
                   }`}
                 >
-                  {/* Текст */}
+                  
                   <div className="lg:w-1/2">
                     <motion.div
                       initial={{ opacity: 0, scale: 0.9 }}
                       whileInView={{ opacity: 1, scale: 1 }}
                       viewport={{ once: true }}
-                      className="relative"
+                      className="relative mt-15"
                     >
                       <div className="text-8xl font-bold text-[#d4af37]/10 absolute -top-8 -left-4">
                         {step.number}
@@ -179,7 +179,7 @@ const Production = () => {
                     </motion.div>
                   </div>
 
-                  {/* Изображение */}
+                  
                   <div className="lg:w-1/2">
                     <motion.div
                       initial={{ opacity: 0, scale: 0.95 }}
@@ -205,7 +205,7 @@ const Production = () => {
         </div>
       </div>
 
-      {/* Источник вдохновения */}
+      
       <div className="px-4 bg-white">
         <div className="max-w-7xl mx-auto">
           <motion.div
@@ -254,7 +254,7 @@ const Production = () => {
             ))}
           </div>
 
-          {/* Цитата */}
+          
           <motion.div
             initial={{ opacity: 0, y: 40 }}
             whileInView={{ opacity: 1, y: 0 }}

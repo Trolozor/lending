@@ -42,7 +42,7 @@ const Partners = () => {
 
   return (
     <section className="relative bg-[#f8f5f0]">
-      {/* Hero */}
+      
       <div className="relative h-screen flex items-center justify-center overflow-hidden">
         <motion.div
           initial={{ scale: 1.1 }}
@@ -57,7 +57,7 @@ const Partners = () => {
             initial={{ opacity: 0, y: 40 }}
             animate={{ opacity: 1, y: 0 }}
             transition={{ duration: 1 }}
-            className="text-6xl text-white md:text-7xl font-bold mb-10"
+            className="text-5xl text-white md:text-7xl font-bold mb-10"
           >
             Сотрудничество с партнёрами
           </motion.h1>
@@ -65,7 +65,7 @@ const Partners = () => {
             initial={{ opacity: 0, y: 40 }}
             animate={{ opacity: 1, y: 0 }}
             transition={{ duration: 1, delay: 0.3 }}
-            className="text-xl md:text-xl leading-relaxed"
+            className="text-md md:text-xl leading-relaxed"
           >
             Мы заинтересованы в долгосрочном и взаимовыгодном сотрудничестве с розничными сетями, магазинами здорового питания, 
             сувенирными лавками, отелями курортного региона и корпоративными клиентами.
@@ -73,7 +73,7 @@ const Partners = () => {
         </div>
       </div>
 
-      {/* Преимущества - 4 больших блока */}
+      
       <div>
         {advantages.map((adv, index) => {
           const isEven = index % 2 === 0;
@@ -90,7 +90,7 @@ const Partners = () => {
                     isEven ? '' : 'lg:flex-row-reverse'
                   }`}
                 >
-                  {/* Текстовая часть */}
+                  
                   <div className="lg:w-1/2">
                     <motion.h3
                       initial={{ opacity: 0, y: 20 }}
@@ -112,7 +112,7 @@ const Partners = () => {
                     </motion.p>
                   </div>
 
-                  {/* Картинка */}
+                  
                   <motion.div
                     initial={{ opacity: 0, scale: 0.9 }}
                     whileInView={{ opacity: 1, scale: 1 }}
@@ -140,7 +140,7 @@ const Partners = () => {
         })}
       </div>
 
-      {/* CTA */}
+      
       <div className="py-32 px-4 text-center bg-[#3c2d1e]">
         <motion.div
           initial={{ opacity: 0, y: 40 }}

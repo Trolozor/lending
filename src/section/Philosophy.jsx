@@ -42,7 +42,7 @@ const Philosophy = () => {
   return (
     <section className="py-24 relative overflow-hidden" style={{ backgroundColor: '#f8f5f0' }}>
       <div className="relative max-w-7xl mx-auto px-4">
-        {/* Заголовок */}
+        
         <motion.div initial={{ opacity: 0, y: 30 }} whileInView={{ opacity: 1, y: 0 }} viewport={{ once: true }} className="text-center mb-20">
           <h2 className="text-4xl md:text-5xl font-bold text-[#3c2d1e] mb-6">Наше призвание</h2>
           <p className="text-lg md:text-xl text-[#5a4a3a] max-w-4xl mx-auto leading-relaxed">
@@ -51,7 +51,7 @@ const Philosophy = () => {
           </p>
         </motion.div>
 
-        {/* Принципы */}
+        
         <motion.div variants={containerVariants} initial="hidden" whileInView="visible" viewport={{ once: true }} className="grid md:grid-cols-3 gap-12 mb-24">
           {principles.map((item, i) => (
             <motion.div 
@@ -67,10 +67,10 @@ const Philosophy = () => {
           ))}
         </motion.div>
 
-        {/* Разделитель */}
+        
         <div className="h-px bg-[#d4b483] my-24 mx-auto max-w-4xl" />
 
-        {/* Галерея производства */}
+        
         <motion.div initial={{ opacity: 0 }} whileInView={{ opacity: 1 }} viewport={{ once: true }} className="mb-24">
           <h3 className="text-3xl font-bold text-[#3c2d1e] text-center mb-12">Наше производство</h3>
           <div className="grid grid-cols-2 md:grid-cols-4 gap-6">
@@ -86,7 +86,7 @@ const Philosophy = () => {
           </div>
         </motion.div>
 
-        {/* Преимущества для партнёров */}
+        
         <motion.div initial={{ opacity: 0, y: 30 }} whileInView={{ opacity: 1, y: 0 }} className="bg-white rounded-3xl p-12 shadow-md border border-[#e8e0d5]">
           <div className="grid lg:grid-cols-2 gap-12 items-center">
             <div>
